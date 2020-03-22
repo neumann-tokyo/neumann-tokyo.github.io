@@ -42,9 +42,6 @@ main {
 
 .sidenav {
   list-style-type: none;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -63,6 +60,17 @@ main {
   color: white;
 }
 
+/* table */
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
 @media (max-width: 768px) {
   .holy-grail-layout {
     grid-template-areas:
@@ -73,11 +81,15 @@ main {
     grid-template-columns: 1fr;
     grid-template-rows:
       auto /* Header */
-      minmax(75px, auto) /* Nav */
+      minmax(12rem, auto) /* Nav */
       1fr; /* Content */
   }
 
   nav {
     margin: 0;
+  }
+
+  main {
+    margin: 0 0.5rem;
   }
 }
