@@ -1,0 +1,56 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.holy-grail-layout {
+  display: grid;
+
+  grid-template-areas:
+    "header  content"
+    "nav     content";
+
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: 200px 1fr;
+  grid-gap: 10px;
+
+  height: 100vh;
+}
+
+header {
+  grid-area: header;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+nav {
+  grid-area: nav;
+  margin-left: 0.5rem;
+}
+
+main {
+  grid-area: content;
+}
+
+.header__logo {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .holy-grail-layout {
+    grid-template-areas:
+      "header"
+      "nav"
+      "content";
+
+    grid-template-columns: 1fr;
+    grid-template-rows:
+      auto /* Header */
+      minmax(75px, auto) /* Nav */
+      1fr; /* Content */
+  }
+
+  nav {
+    margin: 0;
+  }
+}
