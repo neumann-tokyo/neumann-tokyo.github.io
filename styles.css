@@ -773,26 +773,22 @@ body {
     background-size: 8.3rem;
   }
 
-  .points__both-sides {
+  .contents__points .points__both-sides {
     flex-direction: column;
   }
-
-  .points__both-sides:nth-child(even) {
+  .contents__points .points__both-sides:nth-child(even) {
     flex-direction: column;
   }
-
-  .points__both-sides img {
+  .contents__points .points__both-sides img {
     width: 40rem;
     margin: 4rem auto 6rem;
   }
-
-  .points__both-sides section {
+  .contents__points .points__both-sides section {
     width: 90%;
     font-size: 2.7rem;
     line-height: 2;
   }
-
-  .points__both-sides h3 {
+  .contents__points .points__both-sides h3 {
     font-size: 3rem;
     font-weight: bold;
   }
@@ -807,6 +803,10 @@ body {
 
   .point__text {
     font-size: 2.2rem;
+  }
+
+  .contact__title {
+    padding-top: 0;
   }
 
   .languages-tools {
