@@ -1173,6 +1173,17 @@ th {
   list-style: inside;
 } .recruitment-link {
   text-decoration: underline;
+} .recruitment-entry-button-container {
+  margin: 5rem 0;
+  text-align: center;
+} .recruitment-entry-button {
+  border: solid 8px #fb8500;
+  background-color: #ffb703;
+  color: white;
+  padding: 3rem 5rem;
+  border-radius: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
 } @media screen and (max-width: 768px) {
   .sp-only {
     display: inline-block;
