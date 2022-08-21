@@ -1195,4 +1195,7 @@ th {
   .recruitment-list {
     margin-left: 2rem;
   }
+  .recruitment-cards {
+    flex-direction: column;
+  }
 }
