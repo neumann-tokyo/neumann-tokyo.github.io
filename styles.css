@@ -1158,10 +1158,10 @@ th {
   font-size: 4rem;
   color: #5a9780;
   margin: 1rem 0;
-} .recruitment-languages {
+} .recruitment-cards {
   display: flex;
   justify-content: space-around;
-} .recruitment-languages-item {
+} .recruitment-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
