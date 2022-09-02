@@ -1,123 +1,61 @@
 <!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
-    />
-    <link rel="stylesheet" href="/styles.css" />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
+<html lang="ja"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
     <title>合同会社ノイマン - 正社員募集</title>
   </head>
-  <body>
-    <header class="header color--black-1d">
-      <a class="header__logo" href="/">
-        <img src="/img/logo.png" alt="neumann-logo" />
-      </a>
-      <div class="header__menu-sp">
-        <input type="checkbox" id="menu" />
-        <label for="menu" class="material-icons">menu</label>
-        <label for="menu" class="back"></label>
-        <div class="header__menu-contents">
-          <label for="menu" class="back material-icons" style="color: white"
-            >close</label
-          >
-          <ul class="header__menu-links">
-            <li class="header__menu-item">
-              <a href="/">HOME</a>
-            </li>
-            <li class="header__menu-item">
-              <a href="/about">ABOUT</a>
-            </li>
-            <li class="header__menu-item">
-              <a href="/members">MEMBERS</a>
-            </li>
-            <li class="header__menu-item">
-              <a href="/works">WORKS</a>
-            </li>
-            <li class="header__menu-item">
-              <a href="/recruitment">RECRUITMENT</a>
-            </li>
-            <li class="header__menu-item">
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdHMxI-xN5SFX_XPGmmJ3dWh8P1jSwmKKSsJmiCQp1LJfgyxA/viewform?usp=sf_link"
-                >CONTACT</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-      <label for="menu" class="back"></label>
-      
-      <nav class="header__list header__nav">
-        <ul class="header-list__wrapper header__nav-menu">
-          <li class="header__nav-menu-li">
-            <a href="/about">ABOUT</a>
-          </li>
-          <li class="header__nav-menu-li">
-            <a href="/members">MEMBERS</a>
-          </li>
-          <li class="header__nav-menu-li">
-            <a href="/works">WORKS</a>
-          </li>
-          <li class="header__nav-menu-li">
-            <a href="/recruitment">RECRUITMENT</a>
-          </li>
-          <li class="header__nav-menu-li">
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdHMxI-xN5SFX_XPGmmJ3dWh8P1jSwmKKSsJmiCQp1LJfgyxA/viewform?usp=sf_link"
-              >CONTACT</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main class="contents color--black-1d"><div class="contents__top">
-  <h2 class="contents__top--title">RECRUIT<br class="sp-only" />MENT</h2>
-  <p class="contents__top--text">正社員募集</p>
+  <body class="layout">
+    
+<header class="layout-header">
+  <div class="header">
+    <a href="/">
+      <div class="header-title">
+  <img src="/img/logo.png" alt="logo" loading="lazy" class="header-title-logo">
+  <h1 class="header-title-text">合同会社ノイマン</h1>
 </div>
 
+    </a>
+    <div class="header-nav-container">
+      <nav class="header-nav">
+  <ul class="header-nav-list">
+    <li><a href="/about" class="header-nav-list-link">会社概要</a></li>
+    <li><a href="/jobs" class="header-nav-list-link">事例紹介</a></li>
+    <li><a href="/recruitment" class="header-nav-list-link">求人情報</a></li>
+    <li>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdHMxI-xN5SFX_XPGmmJ3dWh8P1jSwmKKSsJmiCQp1LJfgyxA/viewform" target="_blank" rel="noopener" class="header-nav-list-link">問い合わせ</a>
+    </li>
+  </ul>
+</nav>
+
+    </div>
+  </div>
+</header>
+<div class="layout-main">
+  <main class="layout-main-center">
 <div class="recruitment">
+  <h2>正社員募集</h2>
+
   <h3 class="recruitment-h3">募集要項</h3>
   <p>Webエンジニア 若干名</p>
 
   <h3 class="recruitment-h3">これらの言語が好きな人求む！！</h3>
   <div class="recruitment-cards">
     <div class="recruitment-card">
-      <img
-        class="recruitment-languages-item-img"
-        src="/img/lang1.png"
-        alt="Clojure"
-      />
+      <img class="recruitment-languages-item-img" src="/img/lang1.png" alt="Clojure">
       <div>Clojure</div>
     </div>
     <div class="recruitment-card">
-      <img
-        class="recruitment-languages-item-img"
-        src="/img/lang2.png"
-        alt="Ruby"
-      />
+      <img class="recruitment-languages-item-img" src="/img/lang2.png" alt="Ruby">
       <div>Ruby</div>
     </div>
     <div class="recruitment-card">
-      <img
-        class="recruitment-languages-item-img"
-        src="/img/lang3.png"
-        alt="TypeScript"
-      />
+      <img class="recruitment-languages-item-img" src="/img/lang3.png" alt="TypeScript">
       <div>TypeScript</div>
     </div>
     <div class="recruitment-card">
-      <img
-        class="recruitment-languages-item-img"
-        src="/img/flutter.png"
-        alt="Flutter"
-      />
+      <img class="recruitment-languages-item-img" src="/img/flutter.png" alt="Flutter">
       <div>Flutter</div>
     </div>
   </div>
@@ -132,13 +70,10 @@
     <li>英語力を使って仕事をしたい方</li>
   </ul>
   <div class="recruitment-entry-button-container">
-    <a
-      class="recruitment-entry-button"
-      href="https://docs.google.com/forms/d/e/1FAIpQLSfcirDP2pWqzxacUQmxv-OBfpqCh2UIz9FycnTmMe1awivowg/viewform?usp=sf_link"
-      target="_blank"
-    >
-      エントリーフォーム
-    </a>
+    <a class="button-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfcirDP2pWqzxacUQmxv-OBfpqCh2UIz9FycnTmMe1awivowg/viewform?usp=sf_link" target="_blank" rel="noopener">
+  エントリーフォーム
+</a>
+
   </div>
 
   <h3 class="recruitment-h3">業務内容</h3>
@@ -226,20 +161,22 @@
 
   <h3 class="recruitment-h3">応募方法</h3>
   <p>下記のエントリーフォームからお申し込みください</p>
-
   <div class="recruitment-entry-button-container">
-    <a
-      class="recruitment-entry-button"
-      href="https://docs.google.com/forms/d/e/1FAIpQLSfcirDP2pWqzxacUQmxv-OBfpqCh2UIz9FycnTmMe1awivowg/viewform?usp=sf_link"
-      target="_blank"
-    >
-      エントリーフォーム
-    </a>
+    <a class="button-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfcirDP2pWqzxacUQmxv-OBfpqCh2UIz9FycnTmMe1awivowg/viewform?usp=sf_link" target="_blank" rel="noopener">
+  エントリーフォーム
+</a>
+
   </div>
 </div>
 </main>
-    <footer class="footer color--gray-c7">
-      <small>&copy;2022 合同会社ノイマン</small>
-    </footer>
-  </body>
-</html>
+</div>
+<footer class="layout-footer">
+  <div class="footer">
+    <div class="footer-content">©2022 合同会社ノイマン</div>
+
+  </div>
+</footer>
+
+  
+
+</body></html>

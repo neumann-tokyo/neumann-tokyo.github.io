@@ -1,200 +1,146 @@
 <!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
-    />
-    <link rel="stylesheet" href="/styles.css" />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <title>合同会社ノイマン</title>
+<html lang="ja"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>合同会社ノイマン - 会社概要</title>
   </head>
-  <body>
-    <header class="header color--black-1d">
-      <a class="header__logo" href="/">
-        <img src="/img/logo.png" alt="neumann-logo" />
-      </a>
-      <div class="header__menu-sp">
-        <input type="checkbox" id="menu" />
-        <label for="menu" class="material-icons">menu</label>
-        <label for="menu" class="back"></label>
-        <div class="header__menu-contents">
-          <label for="menu" class="back material-icons" style="color: white"
-            >close</label
-          >
-          <ul class="header__menu-links">
-            <li class="header__menu-item">
-              <a href="/">HOME</a>
-            </li>
-            <li class="header__menu-item">
-              <a href="/about">ABOUT</a>
-            </li>
-            <li class="header__menu-item">
-              <a href="/members">MEMBERS</a>
-            </li>
-            <li class="header__menu-item">
-              <a href="/works">WORKS</a>
-            </li>
-            <li class="header__menu-item">
-              <a href="/recruitment">RECRUITMENT</a>
-            </li>
-            <li class="header__menu-item">
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdHMxI-xN5SFX_XPGmmJ3dWh8P1jSwmKKSsJmiCQp1LJfgyxA/viewform?usp=sf_link"
-                >CONTACT</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-      <label for="menu" class="back"></label>
-      
-      <nav class="header__list header__nav">
-        <ul class="header-list__wrapper header__nav-menu">
-          <li class="header__nav-menu-li">
-            <a href="/about">ABOUT</a>
-          </li>
-          <li class="header__nav-menu-li">
-            <a href="/members">MEMBERS</a>
-          </li>
-          <li class="header__nav-menu-li">
-            <a href="/works">WORKS</a>
-          </li>
-          <li class="header__nav-menu-li">
-            <a href="/recruitment">RECRUITMENT</a>
-          </li>
-          <li class="header__nav-menu-li">
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdHMxI-xN5SFX_XPGmmJ3dWh8P1jSwmKKSsJmiCQp1LJfgyxA/viewform?usp=sf_link"
-              >CONTACT</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main class="contents color--black-1d"><nav class="contents__top">
-  <h2 class="contents__top--title">ABOUT</h2>
-  <p class="contents__top--text">わたしたちについて</p>
+  <body class="layout">
+    
+<header class="layout-header">
+  <div class="header">
+    <a href="/">
+      <div class="header-title">
+  <img src="/img/logo.png" alt="logo" loading="lazy" class="header-title-logo">
+  <h1 class="header-title-text">合同会社ノイマン</h1>
+</div>
+
+    </a>
+    <div class="header-nav-container">
+      <nav class="header-nav">
+  <ul class="header-nav-list">
+    <li><a href="/about" class="header-nav-list-link">会社概要</a></li>
+    <li><a href="/jobs" class="header-nav-list-link">事例紹介</a></li>
+    <li><a href="/recruitment" class="header-nav-list-link">求人情報</a></li>
+    <li>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdHMxI-xN5SFX_XPGmmJ3dWh8P1jSwmKKSsJmiCQp1LJfgyxA/viewform" target="_blank" rel="noopener" class="header-nav-list-link">問い合わせ</a>
+    </li>
+  </ul>
 </nav>
 
-<div class="contents__about">
-  <img class="contents__about--logo" src="/img/logo.png" alt="neumann-logo" />
-  <div class="contents__about--overview">
-    <table>
-      <tr>
-        <th class="contents__about--overview-space">社名</th>
-        <td class="contents__about--overview-space">合同会社ノイマン</td>
-      </tr>
-      <tr>
-        <th class="contents__about--overview-space">所在地</th>
-        <td class="contents__about--overview-space">
-          〒411-0041<br />
-          静岡県三島市佐野見晴台2丁目39番地の7
-        </td>
-      </tr>
-      <tr>
-        <th class="contents__about--overview-space">代表</th>
-        <td class="contents__about--overview-space">馬場 一樹</td>
-      </tr>
-      <tr>
-        <th class="contents__about--overview-space">設立</th>
-        <td class="contents__about--overview-space">2019年9月</td>
-      </tr>
-      <tr>
-        <th class="contents__about--overview-space">法人番号</th>
-        <td class="contents__about--overview-space">2080103002041</td>
-      </tr>
-    </table>
-  </div>
-</div>
-
-<div class="contents__links">
-  <div class="contents__links__two-service">
-    <a
-      class="contents__links__two-service--img-frame"
-      href="https://blog.neumann.tokyo/"
-    >
-      <img
-        class="contents__links__two-service--image contents__links__two-service--adjustHatenaBlog"
-        src="/img/hatenablog-logotype.svg"
-        alt="hatenaBlog"
-      />
-    </a>
-    <a
-      class="contents__links__two-service--img-frame"
-      href="https://discord.com/invite/qTEfHCjQQN"
-    >
-      <img
-        class="contents__links__two-service--image contents__links__two-service--adjustDiscord"
-        src="/img/discord-logo.svg"
-        alt="discord"
-      />
-    </a>
-  </div>
-  <div class="contents__links__one-service-pc">
-    <a
-      class="twitter-timeline"
-      data-width="340"
-      data-height="466"
-      href="https://twitter.com/kbaba1001?ref_src=twsrc%5Etfw"
-      >Tweets by kbaba1001</a
-    >
-    <script
-      async
-      src="https://platform.twitter.com/widgets.js"
-      charset="utf-8"
-    ></script>
-  </div>
-  <div class="contents__links__one-service-sp">
-    <a
-      class="twitter-timeline"
-      data-width="600"
-      data-height="820"
-      href="https://twitter.com/kbaba1001?ref_src=twsrc%5Etfw"
-      >Tweets by kbaba1001</a
-    >
-    <script
-      async
-      src="https://platform.twitter.com/widgets.js"
-      charset="utf-8"
-    ></script>
-  </div>
-</div>
-
-<div id="lisp-monster" class="contents__of-header-image">
-  <h3 class="contents__of-header-image--title">ヘッダーのイラストについて</h3>
-  <div class="contents__of-header-image--explain">
-    <img
-      class="contents__of-header-image--explain--header-image"
-      src="/img/mainvisual.png"
-      alt="mainvisual"
-    />
-    <div class="contents__of-header-image--explain--text-message">
-      <h4
-        class="contents__of-header-image--explain--text-message-topic color--green-5a"
-      >
-        少女を導くLisp Monster
-      </h4>
-      <p>
-        The Lisp Monster a girl<br />
-        スマホを持った少女をLispの世界に導くLisp Monster の絵です。
-      </p>
-      <p>
-        この絵は弊社メンバーの馬場亜沙美が描きました。Lisp Monster
-        の使用許可は『Land of Lisp』の筆者である Conrad Barski
-        様に頂いております。
-      </p>
     </div>
   </div>
+</header>
+<div class="layout-main">
+  <main class="layout-main-center">
+<div class="about">
+  <section>
+    <h2>会社概要</h2>
+    <div class="about-company">
+      <img src="/img/logo.png" alt="合同会社ノイマン" class="about-company-image" loading="lazy">
+      <table class="about-company-table">
+        <tbody><tr>
+          <th>社名</th>
+          <td>合同会社ノイマン</td>
+        </tr>
+        <tr>
+          <th>所在地</th>
+          <td>
+            〒411-0041
+            <br>
+            静岡県三島市佐野見晴台2丁目39番地の7
+          </td>
+        </tr>
+        <tr>
+          <th>代表</th>
+          <td>馬場 一樹</td>
+        </tr>
+        <tr>
+          <th>設立</th>
+          <td>2019年9月</td>
+        </tr>
+        <tr>
+          <th>法人番号</th>
+          <td>2080103002041</td>
+        </tr>
+      </tbody></table>
+    </div>
+  </section>
+
+  <section>
+    <h2>代表: 馬場一樹について</h2>
+    <div class="about-ceo">
+      <img src="/img/kbaba1001.jpg" class="about-ceo-image" alt="馬場一樹" loading="lazy">
+      <div class="about-ceo-description">
+        <p>
+          名古屋工業大学工学部情報工学科卒業後、(株)永和システムマネジメントに入社。アジャイルと
+          Ruby による受託開発に従事した後、知人と 2
+          人で(株)グピポを起業。その後フリーランスを経
+          て合同会社ノイマンを設立。長年の受託開発の経験を活かした細かな開発を得意とする。
+        </p>
+        <p>
+          IT 以外にもシェアハウス運営やイラスト制作などの事業も経験があり、
+          今後も業種を問わず幅広く活動する予定。
+        </p>
+        <div class="about-ceo-sns">
+          <a href="https://www.kbaba1001.com" target="_blank" rel="noopener" class="about-ceo-sns-link">
+            <img src="/img/sns/hatena-blog.png" alt="はてなブログ" class="about-ceo-sns-image" loading="lazy">
+          </a>
+
+          <a href="https://twitter.com/kbaba1001" target="_blank" rel="noopener" class="about-ceo-sns-link">
+            <img src="/img/sns/twitter.png" alt="twitter" class="about-ceo-sns-image" loading="lazy">
+          </a>
+          <a href="https://www.instagram.com/kbaba1001" target="_blank" rel="noopener" class="about-ceo-sns-link">
+            <img src="/img/sns/instagram.png" alt="Instagram" class="about-ceo-sns-image" loading="lazy">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>公式SNS</h2>
+    <div class="about-sns">
+      <a href="https://blog.neumann.tokyo" target="_blank" rel="noopener" class="about-sns-link">
+        <img src="/img/sns/hatena-blog.png" alt="はてなブログ" class="about-sns-image" loading="lazy">
+        <span>はてなブログ</span>
+      </a>
+      <a href="https://twitter.com/neumannjapan" target="_blank" rel="noopener" class="about-sns-link">
+        <img src="/img/sns/twitter.png" alt="twitter" class="about-sns-image" loading="lazy">
+        <span>Twitter</span>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <h2>トップページのイラストについて</h2>
+    <div class="about-top-illustration">
+      <img src="/img/mainvisual.png" class="about-top-illustration-image" alt="少女を導くLisp Monster" loading="lazy">
+      <div class="about-top-illustration-description">
+        <h3>少女を導くLisp Monster</h3>
+        <p>
+          The Lisp Monster a girl スマホを持った少女をLispの世界に導くLisp
+          Monster の絵です。
+        </p>
+        <p>
+          この絵は弊社メンバーの馬場亜沙美が描きました。Lisp Monster
+          の使用許可は『Land of Lisp』の筆者である Conrad Barski
+          様に頂いております。
+        </p>
+      </div>
+    </div>
+  </section>
 </div>
 </main>
-    <footer class="footer color--gray-c7">
-      <small>&copy;2022 合同会社ノイマン</small>
-    </footer>
-  </body>
-</html>
+</div>
+<footer class="layout-footer">
+  <div class="footer">
+    <div class="footer-content">©2022 合同会社ノイマン</div>
+
+  </div>
+</footer>
+
+  
+
+</body></html>
