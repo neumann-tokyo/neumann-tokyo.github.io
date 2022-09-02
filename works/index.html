@@ -12,7 +12,7 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <title>合同会社ノイマン - 求人情報</title>
+    <title>合同会社ノイマン</title>
   </head>
   <body>
     <header class="header color--black-1d">
@@ -79,29 +79,73 @@
     </header>
     <main class="contents color--black-1d">
 <div class="contents__top">
-  <h2 class="contents__top--title">RECRUIT<br class="sp-only" />MENT</h2>
-  <p class="contents__top--text">求人情報</p>
+  <h2 class="contents__top--title">WORKS</h2>
+  <p class="contents__top--text">制作実績</p>
 </div>
 
-<div class="recruitment">
-  <div class="recruitment-cards">
-    <div class="recruitment-card">
-      <div class="recruitment-entry-button-container">
-        <a class="recruitment-entry-button" href="/recruitment/regular">
-          正社員募集
-        </a>
-      </div>
-      <p>Webエンジニア募集</p>
-    </div>
+<div class="contents__works">
+  <nav class="contents__works--nav">
+    <h2
+      class="contents__works--nav--box contents__works--adjust contents__works--nav--selected"
+    >
+      <a href="/works">受託開発</a>
+    </h2>
+    <h2
+      class="contents__works--nav--box contents__works--adjust contents__works--nav--unselected"
+    >
+      <a href="/works-sponser">スポンサー事業</a>
+    </h2>
+    <h2
+      class="contents__works--nav--box contents__works--adjust contents__works--nav--unselected"
+    >
+      <a href="/works-incompany">自社開発</a>
+    </h2>
+  </nav>
 
-    <div class="recruitment-card">
-      <div class="recruitment-entry-button-container">
-        <a class="recruitment-entry-button" href="/recruitment/parttime">
-          アルバイト募集
-        </a>
+  <div class="contents__works--clients">
+    
+    <div class="contents__works--clients--item">
+      <div class="contents__works--clients--img-frame">
+        <a href="/works/guildworks"
+          ><img
+            class="contents__works--clients--logo"
+            src="/img/work1.png"
+            alt="NaN"
+        /></a>
       </div>
-      <p>プログラミング・ロボット塾講師</p>
+      <h3 class="contents__works--clients--name contents__works--adjust">
+        ギルドワークス株式会社
+      </h3>
     </div>
+    
+    <div class="contents__works--clients--item">
+      <div class="contents__works--clients--img-frame">
+        <a href="/works/resily"
+          ><img
+            class="contents__works--clients--logo"
+            src="/img/work2.png"
+            alt="NaN"
+        /></a>
+      </div>
+      <h3 class="contents__works--clients--name contents__works--adjust">
+        RESILY株式会社
+      </h3>
+    </div>
+    
+    <div class="contents__works--clients--item">
+      <div class="contents__works--clients--img-frame">
+        <a href="/works/kasseika"
+          ><img
+            class="contents__works--clients--logo"
+            src="/img/kasseika.png"
+            alt="NaN"
+        /></a>
+      </div>
+      <h3 class="contents__works--clients--name contents__works--adjust">
+        株式会社地域活性化総合研究所
+      </h3>
+    </div>
+    
   </div>
 </div>
 </main>
