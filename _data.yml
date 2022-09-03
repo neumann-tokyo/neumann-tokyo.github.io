@@ -46,6 +46,12 @@ projects:
       - 情報系の高専生や大学生などを対象としたインターンシップ制度を設けております
       - google classroom を活用した完全オンライン体制で実施します
       - Clojure や Flutter を用いたオリジナルドキュメントを使用します
+  - image: /img/lang1.png
+    name: Clojure Camp
+    url: https://clojure-camp.com
+    description:
+      - Clojure の情報をまとめる Web ジャーナル
+      - Clojure 初心者向けのコンテツなどを整備中
   - image: /img/word-penne.png
     name: Word Penne
     url: https://word-penne-lp.neumann.tokyo/index-jp.html
