@@ -515,7 +515,7 @@ body {
   bottom: 0;
   margin: auto;
   width: 60%;
-  height: 10rem;
+  height: 14rem;
   background-color: black;
   box-sizing: border-box;
   z-index: 2;
@@ -916,7 +916,7 @@ body {
 
 .about-company-table th {
   text-align: left;
-  width: 5rem;
+  width: 7rem;
 }
 
 .about-ceo {
@@ -979,6 +979,10 @@ body {
   .about-top-illustration {
     flex-direction: column;
   }
+}
+
+.jobs {
+  margin-bottom: 2rem;
 }
 
 .jobs-cards {
