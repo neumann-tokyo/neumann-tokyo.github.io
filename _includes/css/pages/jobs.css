@@ -1,3 +1,6 @@
+.jobs {
+  margin-bottom: 2rem;
+}
 .jobs-cards {
   display: flex;
   flex-direction: column;
