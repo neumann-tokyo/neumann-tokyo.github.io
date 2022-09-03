@@ -1,0 +1,59 @@
+.jobs-cards {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--header-bg-color);
+  border-radius: 2rem;
+}
+
+.jobs-card {
+  display: flex;
+  background-color: white;
+  margin: 2rem;
+  border-radius: 2rem;
+}
+
+.jobs-card-image-container {
+  flex: 3;
+  text-align: center;
+}
+
+.jobs-card-image {
+  margin: 1rem;
+  max-width: 80%;
+  max-height: 350px;
+  object-fit: contain;
+}
+
+.jobs-card-title {
+  color: var(--accent-color);
+}
+
+.jobs-card-title-link {
+  color: var(--accent-color);
+}
+
+.jobs-card-description {
+  flex: 4;
+}
+
+.jobs-card-description-text {
+  padding: 0 1rem;
+}
+
+.jobs-appeal {
+  font-size: 2rem;
+  color: var(--accent-color);
+  text-align: center;
+  margin: 2rem;
+}
+
+.jobs-appeal-inquiry-button-container {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .jobs-card {
+    flex-direction: column;
+  }
+}

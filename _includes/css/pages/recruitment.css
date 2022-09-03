@@ -1,0 +1,51 @@
+.recruitment-h3 {
+  color: var(--accent-color);
+}
+
+.recruitment {
+  margin-bottom: 2rem;
+  line-height: 2rem;
+}
+
+.recruitment-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.recruitment-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.recruitment-languages-item-img {
+  width: 10rem;
+}
+
+.recruitment-list {
+  list-style: inside;
+}
+
+.recruitment-link {
+  text-decoration: underline;
+}
+
+.recruitment-entry-button-container {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .sp-only {
+    display: inline-block;
+  }
+
+  .recruitment {
+    margin: 0 0.5rem;
+    padding-left: 0;
+  }
+
+  .recruitment-cards {
+    flex-direction: column;
+  }
+}

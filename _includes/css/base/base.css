@@ -1,0 +1,32 @@
+:root {
+  --contents-width: 1000px;
+
+  --main-text-color: #000000;
+  --main-bg-color: #ffffff;
+  --header-bg-color: #f4f4f4;
+  --header-text-color: #000000;
+  --footer-bg-color: #000000;
+  --footer-text-color: #ffffff;
+  --accent-color: #5a9780;
+  --accent-button-bg-color: #ffb703;
+  --accent-button-line-color: #fb8500;
+  --accent-button-text-color: #ffffff;
+
+  /* --accent-bg-color: #be2543;
+  --accent-bg-color-dark: #941c34;
+  --accent-text-color: #f2d3d9;
+  --accent-button-bg-color: #bdbe25;
+  --accent-button-bg-color-dark: #91911c;
+  --accent-button-text-color: #000000; */
+
+  /* https://www.htmlcsscolor.com/hex/E6D6CF */
+  /* #bdbe25 */
+  /* #2580be */
+  /* https://imagecolorpicker.com/color-code/be2543 */
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  background-color: var(--footer-bg-color);
+}

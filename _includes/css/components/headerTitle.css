@@ -1,0 +1,12 @@
+.header-title-text {
+  display: none;
+}
+.header-title-logo {
+  width: 13rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .header-title-logo {
+    width: 8rem;
+  }
+}

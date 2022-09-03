@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+---
+
+<header class="layout-header">
+  <div class="header">
+    <a href="/">
+      {{ comp.headerTitle() | safe }}
+    </a>
+    <div class="header-nav-container">
+      {{ comp.headerNav() | safe }}
+    </div>
+  </div>
+</header>
+<div class="layout-main">
+  <main class="layout-main-center">{{ content | safe }}</main>
+</div>
+<footer class="layout-footer">
+  <div class="footer">
+    {{ comp.footer() | safe }}
+  </div>
+</footer>

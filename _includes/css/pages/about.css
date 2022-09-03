@@ -1,0 +1,85 @@
+.about h2,
+.about h3 {
+  color: var(--accent-color);
+}
+
+.about-company {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  gap: 2rem;
+  align-items: center;
+}
+
+.about-company-image {
+  width: 300px;
+  height: 168px;
+}
+
+.about-company-table {
+  border-spacing: 1rem 2rem;
+}
+.about-company-table th {
+  text-align: left;
+  width: 5rem;
+}
+
+.about-ceo {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.about-ceo-image {
+  max-width: 400px;
+  object-fit: contain;
+}
+
+.about-ceo-sns-link {
+  text-decoration: none;
+}
+
+.about-ceo-sns-image {
+  width: 2rem;
+  height: 2rem;
+}
+
+.about-sns-link {
+  text-decoration: none;
+  color: var(--main-text-color);
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.about-sns-image {
+  width: 5rem;
+  height: 5rem;
+}
+
+.about-top-illustration {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  gap: 2rem;
+  align-items: center;
+}
+
+.about-top-illustration-image {
+  width: 400px;
+}
+
+@media only screen and (max-width: 800px) {
+  .about-company {
+    flex-direction: column;
+  }
+
+  .about-ceo {
+    flex-direction: column;
+  }
+
+  .about-top-illustration {
+    flex-direction: column;
+  }
+}

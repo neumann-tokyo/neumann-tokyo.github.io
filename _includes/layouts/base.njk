@@ -1,0 +1,55 @@
+---
+description: 合同会社ノイマンはITとテレワークを主軸として開発を支援する技術集団です。なんでもご相談ください。
+---
+
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <meta
+      name="keywords"
+      content="静岡県三島市,Clojure,プログラミング,受託開発"
+    />
+    <meta name="author" content="合同会社ノイマン馬場一樹" />
+    <meta property="og:title" content="合同会社ノイマン - {{ title }}" />
+    <meta property="og:url" content="https://www.neumann.tokyo" />
+    <meta
+      property="og:image"
+      content="https://www.neumann.tokyo/img/mainvisual.png"
+    />
+    <meta property="og:type" content="website" />
+    <meta name="description" content="{{ description }}" />
+    <meta property="og:description" content="{{ description }}" />
+    <meta property="og:locale" content="ja_JP" />
+
+    <title>合同会社ノイマン - {{ title }}</title>
+  </head>
+  <body class="layout">
+    {{ content | safe }}
+  </body>
+</html>

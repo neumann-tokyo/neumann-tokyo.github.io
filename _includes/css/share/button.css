@@ -1,0 +1,12 @@
+.button-link {
+  display: inline-block;
+  border: 8px solid var(--accent-button-line-color);
+  background-color: var(--accent-button-bg-color);
+  color: var(--accent-button-text-color);
+  border-radius: 2rem;
+  padding: 1.5rem;
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  white-space: nowrap;
+}
