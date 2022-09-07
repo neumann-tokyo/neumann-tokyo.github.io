@@ -800,6 +800,7 @@ body {
 
 .job-card-image {
   width: 100%;
+  max-height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
 }
