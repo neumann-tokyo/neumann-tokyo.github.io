@@ -4,19 +4,28 @@
   min-height: 99.9vh;
 }
 
+.header-language {
+  max-width: var(--contents-width);
+  text-align: right;
+  margin: 0 auto;
+}
+
+.header-language-link {
+  color: var(--header-text-color);
+  text-decoration: none;
+}
+
 .header {
   display: flex;
-  width: var(--contents-width);
+  max-width: var(--contents-width);
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0;
+  margin: 0 auto;
 }
 
 .layout-header {
   background-color: var(--header-bg-color);
   color: var(--header-text-color);
-  display: flex;
-  justify-content: center;
 }
 
 .layout-main {
