@@ -4,7 +4,7 @@ import base_path from "lume/plugins/base_path.ts";
 import code_highlight from "lume/plugins/code_highlight.ts";
 import jsx from "lume/plugins/jsx.ts";
 import date from "lume/plugins/date.ts";
-import parcel_css from "lume/plugins/parcel_css.ts";
+import lightningCss from "lume/plugins/lightningcss.ts";
 import postcss from "lume/plugins/postcss.ts";
 import terser from "lume/plugins/terser.ts";
 
@@ -16,7 +16,7 @@ site.use(base_path());
 site.use(code_highlight());
 site.use(jsx());
 site.use(date());
-site.use(parcel_css());
+site.use(lightningCss());
 site.use(postcss());
 site.use(terser());
 site.copy("img");

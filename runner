@@ -13,7 +13,7 @@ npm install
 npm run prepare
 ;;
 "up") ## start server
-lume -s
+deno task serve
 ;;
 "fmt") ## format all files
 # deno fmt は html や scss に対応していないので prettier を使う
@@ -21,7 +21,7 @@ npx prettier -w .
 npx prettier -w --parser=html $(find . -name "*.njk")
 ;;
 "build") ## build for production
-lume --dest docs
+deno task build
 ;;
 "help" | *)
 (
