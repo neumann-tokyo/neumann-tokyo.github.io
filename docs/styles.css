@@ -583,6 +583,11 @@ body {
   padding: 2rem;
 }
 
+.top-notification {
+  text-align: center;
+  font-weight: bold;
+}
+
 .top-slogan {
   display: flex;
   justify-content: space-around;
