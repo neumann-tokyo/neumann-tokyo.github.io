@@ -92,57 +92,36 @@
 </header>
 <div class="layout-main">
   <main class="layout-main-center"><div class="recruitment">
-  <h2>正社員募集</h2>
+  <h2 id="top">正社員募集</h2>
 
-  <h3 class="recruitment-h3">募集要項</h3>
-  <p>Webエンジニア 若干名</p>
-
-  <h3 class="recruitment-h3">これらの言語が好きな人求む！！</h3>
-  <div class="recruitment-cards">
-    <div class="recruitment-card">
-      <img class="recruitment-languages-item-img" src="/img/lang1.png" alt="Clojure">
-      <div>Clojure</div>
-    </div>
-    <div class="recruitment-card">
-      <img class="recruitment-languages-item-img" src="/img/lang2.png" alt="Ruby">
-      <div>Ruby</div>
-    </div>
-    <div class="recruitment-card">
-      <img class="recruitment-languages-item-img" src="/img/lang3.png" alt="TypeScript">
-      <div>TypeScript</div>
-    </div>
-    <div class="recruitment-card">
-      <img class="recruitment-languages-item-img" src="/img/flutter.png" alt="Flutter">
-      <div>Flutter</div>
-    </div>
-  </div>
-
-  <h3 class="recruitment-h3">こんな方はご相談ください</h3>
-  <ul class="recruitment-list">
-    <li>
-      現在フリーランスだけどインボイス制度関係で困っていて正社員になりたい方
+  <h3 class="recruitment-h3">募集職種</h3>
+  <ul class="recruitment-menu">
+    <li class="recruitment-menu-item">
+      <a href="#web-developer">Webエンジニア募集</a>
     </li>
-    <li>現在会社員だけどリモートワークで働きたい方</li>
-    <li>ニッチな言語・技術でも仕事をしたい方</li>
-    <li>英語力を使って仕事をしたい方</li>
+    <li class="recruitment-menu-item">
+      <a href="#newbie-web-developer">未経験者向けWebエンジニア募集</a>
+    </li>
+    <li class="recruitment-menu-item">
+      <a href="#project-manager">プロジェクトマネージャー募集</a>
+    </li>
+    <li class="recruitment-menu-item">
+      <a href="#marketer">IT営業・Webマーケター募集</a>
+    </li>
   </ul>
 
-  <h3 class="recruitment-h3">IT業界未経験の方へ</h3>
-  <p>
-    弊社ではIT業界未経験の方からの応募も歓迎しております。
-    この場合、3か月～半年ほど研修を受けて頂いた後、OJTとして開発現場に先輩社員と一緒に参画して頂きます。
-  </p>
-  <h4>研修内容</h4>
-  <ul class="recruitment-list">
-    <li>Linux の使い方・コマンドなどの基礎知識</li>
-    <li>git / github の使い方</li>
-    <li>リレーショナルデータベース</li>
-    <li>HTML/CSS によるWebデザイン</li>
-    <li>Docker入門</li>
-    <li>Clojure による Web バックエンド開発</li>
-    <li>ClojureScript (React) による Web フロントエンド開発</li>
-    <li>Flutter によるスマートフォン・デスクトップアプリ開発</li>
-    <li>など</li>
+  <h3 class="recruitment-h3">共通情報</h3>
+
+  <ul class="recruitment-menu">
+    <li class="recruitment-menu-item">
+      <a href="#welfare">福利厚生・学習サポートなど</a>
+    </li>
+    <li class="recruitment-menu-item">
+      <a href="#employment">雇用形態・労働時間など</a>
+    </li>
+    <li class="recruitment-menu-item">
+      <a href="#applyment">選考方法・応募方法など</a>
+    </li>
   </ul>
 
   <div class="recruitment-entry-button-container">
@@ -152,132 +131,367 @@
 
   </div>
 
-  <h3 class="recruitment-h3">業務内容</h3>
-  <ul class="recruitment-list">
-    <li>基本的に業務はすべてテレワークで行う</li>
-    <li>
-      Clojure, Ruby, TypeScript, Dart(Flutter) などのプログラミング言語を用いた
-      Web サービスの構築
-    </li>
-    <li>上記による受託開発および自社サービスの開発</li>
-    <li>アジャイル開発手法を用いる</li>
-    <li>海外の案件を行う可能性もあります</li>
-    <li>GitHub, AWS, GCP などのクラウドサービスを用いた開発が多い</li>
-    <li>インターン生などの若手エンジニアの教育</li>
-    <li>
-      日本人以外とコミュニケーションする機会があるためその場合は英語を使います
-    </li>
-  </ul>
+  <details id="web-developer">
+    <summary class="recruitment-summary">Webエンジニア募集</summary>
+    <div>
+      <section>
+        <h3 class="recruitment-h3">これらの言語が好きな人求む！！</h3>
+        <div class="recruitment-cards">
+          <div class="recruitment-card">
+            <img class="recruitment-languages-item-img" src="/img/lang1.png" alt="Clojure">
+            <div>Clojure</div>
+          </div>
+          <div class="recruitment-card">
+            <img class="recruitment-languages-item-img" src="/img/lang2.png" alt="Ruby">
+            <div>Ruby</div>
+          </div>
+          <div class="recruitment-card">
+            <img class="recruitment-languages-item-img" src="/img/lang3.png" alt="TypeScript">
+            <div>TypeScript</div>
+          </div>
+          <div class="recruitment-card">
+            <img class="recruitment-languages-item-img" src="/img/flutter.png" alt="Flutter">
+            <div>Flutter</div>
+          </div>
+        </div>
+      </section>
 
-  <h3 class="recruitment-h3">必要なスキル・経験</h3>
-  <h4>IT業界経験者の方</h4>
-  <p>必須</p>
-  <ul class="recruitment-list">
-    <li>Web 系のソフトウェア開発経験 2 年以上</li>
-    <li>
-      何らかのプログラミング言語でバックエンドとフロントエンドの両方を作れること
-    </li>
-  </ul>
+      <section>
+        <h3 class="recruitment-h3">こんな方はご相談ください</h3>
+        <ul class="recruitment-list">
+          <li>
+            現在フリーランスだけどインボイス制度関係で困っていて正社員になりたい方
+          </li>
+          <li>現在会社員だけどリモートワークで働きたい方</li>
+          <li>ニッチな言語・技術でも仕事をしたい方</li>
+          <li>英語力を使って仕事をしたい方</li>
+        </ul>
+      </section>
 
-  <p>あればなお可</p>
-  <ul class="recruitment-list">
-    <li>Clojure, Ruby, TypeScript, JavaScript, Dart(Flutter) の経験</li>
-    <li>スマートフォンアプリケーションの開発スキル</li>
-    <li>基本情報技術者以上の資格</li>
-    <li>日常会話レベルの英語力</li>
-  </ul>
+      <section>
+        <h3 class="recruitment-h3">業務内容</h3>
+        <ul class="recruitment-list">
+          <li>基本的に業務はすべてテレワークで行う</li>
+          <li>
+            Clojure, Ruby, TypeScript, Dart(Flutter)
+            などのプログラミング言語を用いた Web サービスの構築
+          </li>
+          <li>上記による受託開発および自社サービスの開発</li>
+          <li>アジャイル開発手法を用いる</li>
+          <li>海外の案件を行う可能性もあります</li>
+          <li>GitHub, AWS, GCP などのクラウドサービスを用いた開発が多い</li>
+          <li>インターン生などの若手エンジニアの教育</li>
+          <li>
+            日本人以外とコミュニケーションする機会があるためその場合は英語を使います
+          </li>
+        </ul>
+      </section>
 
-  <h4>IT業界未経験の方</h4>
+      <section>
+        <h3 class="recruitment-h3">必要なスキル・経験</h3>
+        <p>必須</p>
+        <ul class="recruitment-list">
+          <li>Web 系のソフトウェア開発経験 2 年以上</li>
+          <li>
+            何らかのプログラミング言語でバックエンドとフロントエンドの両方を作れること
+          </li>
+        </ul>
 
-  <p>必須</p>
-  <ul class="recruitment-list">
-    <li>
-      基本情報技術者以上の資格取得者または大学・高専・専門学校などで情報工学を勉強された方
-    </li>
-    <li>日常会話レベルの英語力</li>
-    <li>現状の技術力がわかる資料 (ポートフォリオなど)</li>
-  </ul>
+        <p>あればなお可</p>
+        <ul class="recruitment-list">
+          <li>Clojure, Ruby, TypeScript, JavaScript, Dart(Flutter) の経験</li>
+          <li>スマートフォンアプリケーションの開発スキル</li>
+          <li>基本情報技術者以上の資格</li>
+          <li>日常会話レベルの英語力</li>
+        </ul>
+      </section>
 
-  <p>あればなお可</p>
-  <ul class="recruitment-list">
-    <li>Clojure, Ruby, TypeScript, JavaScript, Dart(Flutter) の経験</li>
-  </ul>
+      <section>
+        <h3 class="recruitment-h3">賃金・手当</h3>
+        <ul class="recruitment-list">
+          <li>月給: IT業界経験者の場合: 250,000円 〜 500,000円</li>
+          <li>月平均労働日数: 20.4日</li>
+          <li>賃金形態: 月給</li>
+          <li>昇給・賞与: あり</li>
+        </ul>
+      </section>
 
-  <h3 class="recruitment-h3">雇用形態・会社情報</h3>
-  <p>雇用形態</p>
-  <ul class="recruitment-list">
-    <li>雇用形態: 正社員</li>
-    <li>雇用期間: 定めなし</li>
-    <li>試用期間: 3か月（試用期間中の労働条件は同条件です）</li>
-    <li>作業形態: すべての業務は基本的にテレワークで行います</li>
-    <li>作業場所: 自宅やコワーキングスペースなど所定の場所</li>
-  </ul>
-  <p>会社情報</p>
-  <ul class="recruitment-list">
-    <li>会社所在地: 〒411-0041 静岡県三島市佐野見晴台二丁目３９番地の７</li>
-    <li>会社最寄り駅: 三島駅 (その後車20分)</li>
-  </ul>
+      <div class="text-right">
+        <a href="#top">上に移動</a>
+      </div>
+    </div>
+  </details>
 
-  <h3 class="recruitment-h3">賃金・手当</h3>
-  <ul class="recruitment-list">
-    <li>
-      月給:
-      <ul>
-        <li>IT業界経験者の場合: 250,000円 〜 500,000円</li>
-        <li>IT業界未経験者の場合: 160,000円 〜 250,000円</li>
-      </ul>
-    </li>
-    <li>月平均労働日数: 20.4日</li>
-    <li>賃金形態: 月給</li>
-    <li>昇給・賞与: あり</li>
-  </ul>
+  <!-- ----------------- -->
+  <details id="newbie-web-developer">
+    <summary class="recruitment-summary">未経験者向けWebエンジニア募集</summary>
+    <div>
+      <section>
+        <h3>未経験者向け研修カリキュラムを用意しております！</h3>
+        <p>
+          弊社ではIT業界未経験の方からの応募も歓迎しております。
+          この場合、3か月～半年ほど研修を受けて頂いた後、OJTとして開発現場に先輩社員と一緒に参画して頂きます。
+        </p>
+        <h3 class="recruitment-h3">研修内容</h3>
+        <ul class="recruitment-list">
+          <li>Linux の使い方・コマンドなどの基礎知識</li>
+          <li>git / github の使い方</li>
+          <li>リレーショナルデータベース</li>
+          <li>HTML/CSS によるWebデザイン</li>
+          <li>Docker入門</li>
+          <li>Clojure による Web バックエンド開発</li>
+          <li>ClojureScript (React) による Web フロントエンド開発</li>
+          <li>Flutter によるスマートフォン・デスクトップアプリ開発</li>
+          <li>など</li>
+        </ul>
+      </section>
 
-  <h3 class="recruitment-h3">福利厚生</h3>
-  <ul class="recruitment-list">
-    <li>確定拠出年金、退職金制度を準備中です</li>
-    <li>英語学習サポートを準備中です</li>
-    <li>
-      基本情報処理技術者試験などに合格した方にはお祝い金を渡す制度があります
-    </li>
-    <li>
-      従業員には会社クレジットカードをお渡ししますので、経費を使う場合はこれを使ってください
-    </li>
-  </ul>
+      <section>
+        <h3 class="recruitment-h3">必要なスキル・経験</h3>
 
-  <h3 class="recruitment-h3">労働時間</h3>
-  <ul class="recruitment-list">
-    <li>
-      就業時間: 5時00分〜22時00分の時間の間の8時間
-      (コアタイムなし、受託開発の場合お客様の要望によりコアタイムなどが指定される場合あり)
-    </li>
-    <li>時間外労働: たまにあり</li>
-    <li>休日等: 完全週休2日制</li>
-  </ul>
+        <p>必須</p>
+        <ul class="recruitment-list">
+          <li>
+            基本情報技術者以上の資格取得者、または大学・高専・専門学校などで情報工学を勉強された方
+          </li>
+          <li>日常会話レベルの英語力</li>
+          <li>現状の技術力がわかる資料 (ポートフォリオなど)</li>
+        </ul>
 
-  <h3 class="recruitment-h3">選考など</h3>
-  <ul class="recruitment-list">
-    <li>採用人数: 若干名</li>
-    <li>
-      選考方法: 書類選考、筆記試験+性格診断、面接 (2回) を必要に応じて行います
-    </li>
-    <li>
-      (筆記試験はプログラミングに関する問題、英作文、小論文などを行います)
-    </li>
-    <li>選考結果通知: 書類選考後2週間以内、最終面接終了後2週間以内</li>
-    <li>求職者への通知方法: email</li>
-    <li>選考日時など: 随時</li>
-    <li>選考場所: 本社またはオンライン会議</li>
-    <li>応募書類の返戻: 弊社の責任にて破棄</li>
-  </ul>
+        <p>あればなお可</p>
+        <ul class="recruitment-list">
+          <li>Clojure, Ruby, TypeScript, JavaScript, Dart(Flutter) の経験</li>
+        </ul>
+      </section>
 
-  <h3 class="recruitment-h3">応募方法</h3>
-  <p>下記のエントリーフォームからお申し込みください</p>
-  <div class="recruitment-entry-button-container">
-    <a class="button-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfcirDP2pWqzxacUQmxv-OBfpqCh2UIz9FycnTmMe1awivowg/viewform?usp=sf_link" target="_blank" rel="noopener">
+      <section>
+        <h3 class="recruitment-h3">賃金・手当</h3>
+        <ul class="recruitment-list">
+          <li>月給: IT業界未経験者の場合: 160,000円 〜 250,000円</li>
+          <li>月平均労働日数: 20.4日</li>
+          <li>賃金形態: 月給</li>
+          <li>昇給・賞与: あり</li>
+        </ul>
+      </section>
+
+      <div class="text-right">
+        <a href="#top">上に移動</a>
+      </div>
+    </div>
+  </details>
+
+  <!-- ---------------- -->
+  <details id="project-manager">
+    <summary class="recruitment-summary">プロジェクトマネージャー募集</summary>
+    <div>
+      <section>
+        <h3 class="recruitment-h3">
+          オフショア（海外開発）のプロジェクトマネージャーに興味はありませんか！？
+        </h3>
+        <p>
+          弊社では海外のエンジニアと協力して開発を行っておりますので、
+          英語で彼ら・彼女らのプロジェクトマネジメントができる方を探しております。
+        </p>
+        <p>
+          弊社では全社員に対し英語勉強サポート制度を設けておりますので、
+          多少英語力に自身がなくてもご応募ください。
+          英語力は仕事をするうちに慣れてきて上達します。
+        </p>
+      </section>
+
+      <section>
+        <h3 class="recruitment-h3">業務内容</h3>
+        <ul class="recruitment-list">
+          <li>外国人を含む開発メンバーのプロジェクトマネジメント(英語)</li>
+          <li>日本企業のお客様に対する報連相(日本語)</li>
+          <li>その他付随する業務</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3 class="recruitment-h3">賃金・手当</h3>
+        <ul class="recruitment-list">
+          <li>月給: IT業界未経験者の場合: 250,000円 〜 400,000円</li>
+          <li>月平均労働日数: 20.4日</li>
+          <li>賃金形態: 月給</li>
+          <li>昇給・賞与: あり</li>
+        </ul>
+      </section>
+
+      <div class="text-right">
+        <a href="#top">上に移動</a>
+      </div>
+    </div>
+  </details>
+
+  <!-- ---------------- -->
+  <details id="marketer">
+    <summary class="recruitment-summary">IT営業・Webマーケター募集</summary>
+    <div>
+      <section>
+        <h3 class="recruitment-h3">
+          受託開発案件の取得や自社開発システムの集客など、営業全般せられる方募集！
+        </h3>
+        <p>弊社では次のような仕事に取り組んでいます。</p>
+
+        <ul class="recruitment-list">
+          <li>受託開発</li>
+          <li>自社開発システム</li>
+          <li>プログラミング・ロボット教室の運営</li>
+        </ul>
+        <p>
+          しかし営業がいないので受託開発案件の取得や自社開発システムの集客などに苦労することがあります。
+          <br>
+          ご助力ください。
+        </p>
+      </section>
+
+      <section>
+        <h3 class="recruitment-h3">業務内容</h3>
+        <ul class="recruitment-list">
+          <li>国内における受託開発の案件獲得</li>
+          <li>海外における受託開発の案件獲得</li>
+          <li>自社開発システムのユーザーの集客</li>
+          <li>プログラミング・ロボット教室のユーザーの集客</li>
+          <li>その他付随する業務</li>
+        </ul>
+        <p>
+          弊社の得意技術である Clojure
+          は国内でのニーズが少ないので海外の開発案件を獲得したいと考えています。
+        </p>
+        <p>
+          また自社開発システムの(Web)集客のノウハウがないので、このスキルをお持ちの方を歓迎します。
+        </p>
+      </section>
+
+      <section>
+        <h3 class="recruitment-h3">賃金・手当</h3>
+        <ul class="recruitment-list">
+          <li>月給: IT業界未経験者の場合: 250,000円 〜 400,000円</li>
+          <li>月平均労働日数: 20.4日</li>
+          <li>賃金形態: 月給</li>
+          <li>昇給・賞与: あり</li>
+        </ul>
+      </section>
+
+      <div class="text-right">
+        <a href="#top">上に移動</a>
+      </div>
+    </div>
+  </details>
+
+  <!-- ------------------ -->
+  <h2 id="welfare">福利厚生・学習サポートなど</h2>
+  <section>
+    <h3 class="recruitment-h3">福利厚生</h3>
+    <ul class="recruitment-list">
+      <li>令和5年、春を目標に確定拠出年金の導入を予定しています</li>
+      <li>同じく令和5年春を目標に退職金制度の導入を予定しています</li>
+      <li>希望PC支給</li>
+      <li>テレワーク手当</li>
+      <li>
+        従業員には会社クレジットカードをお渡ししますので、経費を使う場合はこれを使ってください
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h3 class="recruitment-h3">学習サポート</h3>
+    <ul class="recruitment-list">
+      <li>
+        英語学習サポート (
+        <a href="https://biz.hanaso.jp" target="_blank">HanasoBiz</a>
+        と提携中)
+      </li>
+      <li>
+        基本情報処理技術者試験などのIT系の資格に合格した方にはお祝い金を出します
+      </li>
+      <li>
+        社内共有VPS利用可能
+        (サーバーの学習、ちょっとしたシステムのデプロイなど好きに利用できるVPSを用意しています)
+      </li>
+    </ul>
+  </section>
+
+  <div class="text-right">
+    <a href="#top">上に移動</a>
+  </div>
+
+  <!-- --------------- -->
+  <h2 id="employment">雇用形態・労働時間など</h2>
+  <section>
+    <h3 class="recruitment-h3">雇用形態</h3>
+    <ul class="recruitment-list">
+      <li>雇用形態: 正社員</li>
+      <li>雇用期間: 定めなし</li>
+      <li>試用期間: 3か月（試用期間中の労働条件は同条件です）</li>
+      <li>
+        作業形態:
+        すべての業務は基本的にテレワークで行います。会社近くにお住まいの方は出社しても良いです。
+      </li>
+      <li>作業場所: 自宅やコワーキングスペースなど所定の場所</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3 class="recruitment-h3">会社情報</h3>
+
+    <h4>本社</h4>
+    <ul class="recruitment-list">
+      <li>会社所在地: 〒411-0041 静岡県三島市佐野見晴台二丁目３９番地の７</li>
+      <li>会社最寄り駅: 三島駅 (その後車20分)</li>
+    </ul>
+
+    <h4>沼津サテライトオフィス</h4>
+    <ul class="recruitment-list">
+      <li>会社所在地: 〒410-0836 静岡県沼津市吉田町31の3 アンジュール 201</li>
+      <li>会社最寄り駅: 沼津駅 (徒歩20分)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3 class="recruitment-h3">労働時間</h3>
+    <ul class="recruitment-list">
+      <li>平均労働時間: 8時間</li>
+      <li>
+        時間外労働:
+        基本的にないですが、本番環境のデプロイなどの都合により早朝作業などが発生する場合があります
+      </li>
+      <li>休日等: 完全週休2日制 (基本的にカレンダー通り)</li>
+    </ul>
+  </section>
+
+  <div class="text-right">
+    <a href="#top">上に移動</a>
+  </div>
+  <!-- -------------------- -->
+  <h2 id="applyment">選考方法・応募方法など</h2>
+
+  <section>
+    <h3 class="recruitment-h3">選考方法</h3>
+    <ul class="recruitment-list">
+      <li>
+        選考方法: 書類選考、筆記試験+性格診断、面接 (1, 2回)
+        を必要に応じて行います
+      </li>
+      <li>選考結果通知: 書類選考後2週間以内、最終面接終了後2週間以内</li>
+      <li>求職者への通知方法: email</li>
+      <li>選考日時など: 随時</li>
+      <li>選考場所: オフィスまたはオンライン会議</li>
+      <li>応募書類の返戻: 弊社の責任にて破棄</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3 class="recruitment-h3">応募方法</h3>
+    <p>下記のエントリーフォームからお申し込みください</p>
+    <div class="recruitment-entry-button-container">
+      <a class="button-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfcirDP2pWqzxacUQmxv-OBfpqCh2UIz9FycnTmMe1awivowg/viewform?usp=sf_link" target="_blank" rel="noopener">
   エントリーフォーム
 </a>
 
-  </div>
+    </div>
+  </section>
 </div>
 </main>
 </div>
