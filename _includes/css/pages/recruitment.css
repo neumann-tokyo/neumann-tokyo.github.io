@@ -35,6 +35,11 @@
   text-align: center;
 }
 
+.recruitment-summary {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 768px) {
   .sp-only {
     display: inline-block;

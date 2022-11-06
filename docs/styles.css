@@ -468,6 +468,10 @@ body {
   white-space: nowrap;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .header-nav-list {
   list-style: none;
   margin-left: 0;
@@ -1096,6 +1100,11 @@ body {
 
 .recruitment-entry-button-container {
   text-align: center;
+}
+
+.recruitment-summary {
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
