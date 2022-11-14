@@ -1,3 +1,16 @@
+.recruitment-detail-card {
+  border: solid 10px var(--header-bg-color);
+  border-radius: 20px;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+.recruitment-h2::before {
+  content: "■";
+}
+.recruitment-h2 {
+  border-bottom: dotted 10px var(--header-bg-color);
+}
+
 .recruitment-h3 {
   color: var(--accent-color);
 }
