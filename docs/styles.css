@@ -1136,3 +1136,38 @@ body {
     flex-direction: column;
   }
 }
+
+.articles-list-card-date {
+  color: gray;
+}
+
+.articles-list-card-title {
+  margin: 0;
+}
+
+.articles-list-card-title-link {
+  color: var(--accent-color);
+}
+
+.article {
+  margin: 1rem 0;
+}
+
+.article-date {
+  color: gray;
+}
+
+.article-title {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.article-index-link {
+  color: var(--accent-color);
+}
+
+@media only screen and (max-width: 800px) {
+  .article {
+    padding: 0 1rem;
+  }
+}
