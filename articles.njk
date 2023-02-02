@@ -1,0 +1,22 @@
+---
+layout: layouts/main.njk
+---
+
+<section class="article">
+  <h2>最新記事</h2>
+  {% set articles = search.pages("type=articles", "date=desc") %}
+  <div class="articles-list">
+    {% for article in articles %}
+    <div class="articles-list-card">
+      <div class="articles-list-card-date">
+        {{ article.data.date | date('DATE') }}
+      </div>
+      <a href="{{ article.data.url }}" class="articles-list-card-title-link">
+        <h2 class="articles-list-card-title">
+          {{ article.data.title }}
+        </h2>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</section>

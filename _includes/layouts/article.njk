@@ -1,0 +1,10 @@
+---
+layout: layouts/main.njk
+---
+
+<div class="article">
+  <div class="article-date">{{ date | date("DATE") }}</div>
+  <h2 class="article-title">{{ title }}</h2>
+  <div class="article-main">{{ content | safe }}</div>
+  <a href="/articles" class="article-index-link">一覧に戻る</a>
+</div>
