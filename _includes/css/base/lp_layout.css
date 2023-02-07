@@ -1,0 +1,12 @@
+.lp-layout-footer {
+  background-color: var(--lp-footer-bg-color);
+  color: var(--lp-footer-text-color);
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lp-footer {
+  width: var(--contents-width);
+  text-align: center;
+}

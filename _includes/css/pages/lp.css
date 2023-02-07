@@ -1,0 +1,38 @@
+.lp-title {
+  display: grid;
+}
+
+.lp-title-image {
+  justify-self: stretch;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  max-width: 100%;
+  height: 40rem;
+  object-fit: cover;
+}
+
+.lp-title-text-container {
+  /* 説明文を水平方向の（横軸の）中央に配置する */
+  justify-self: center;
+  /* 説明文を垂直方向の（縦軸の）中央に配置する */
+  align-self: center;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  padding: 3rem;
+  text-align: center;
+}
+
+.lp-title-logo {
+  max-width: 15rem;
+  filter: invert(100%);
+}
+
+.lp-title-text {
+  font-size: 0px;
+}
+
+.lp-title-text-chunk {
+  font-size: 2.3rem;
+}

@@ -1,9 +1,11 @@
 @import "css/base/normalize.css";
 @import "css/base/base.css";
 @import "css/base/layout.css";
+@import "css/base/lp_layout.css";
 
 @import "css/share/button.css";
 @import "css/share/string.css";
+@import "css/share/visibility.css";
 
 @import "css/components/headerNav.css";
 @import "css/components/headerTitle.css";
@@ -14,3 +16,4 @@
 @import "css/pages/jobs.css";
 @import "css/pages/recruitment.css";
 @import "css/pages/article.css";
+@import "css/pages/lp.css";
