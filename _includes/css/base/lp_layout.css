@@ -1,9 +1,13 @@
 .lp-layout-main {
   color: var(--lp-main-text-color);
   background-color: white;
+  margin-bottom: 8rem;
 }
 
 .lp-layout-footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
   background-color: var(--lp-footer-bg-color);
   color: var(--lp-footer-text-color);
   height: 8rem;

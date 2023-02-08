@@ -48,6 +48,12 @@
   text-align: center;
 }
 
+.lp-ribbon {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
 .lp-speech-bubbles-container {
   padding: 1rem 1rem 3rem 1rem;
   display: flex;
@@ -128,4 +134,162 @@
 .lp-neumann-help-description {
   font-weight: bold;
   font-size: 15px;
+}
+
+.lp-projects {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3rem 1rem;
+}
+
+.lp-project-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.lp-project-card-image {
+  width: 100px;
+  object-fit: scale-down;
+}
+
+.lp-project-card-title {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+.lp-project-card-description {
+  margin: 0;
+  padding: 0.5rem 0 0 0;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.lp-feature {
+  padding: 2rem 1rem;
+}
+
+.lp-feature-title {
+  text-align: center;
+}
+
+.lp-feature-card {
+  text-align: center;
+}
+
+.lp-feature-description {
+  font-size: 14px;
+}
+
+.lp-flow {
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.lp-flow-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lp-flow-card-title {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.lp-flow-card-image {
+  width: 300px;
+}
+
+.lp-flow-card-description {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
+.lp-map {
+  padding: 2rem;
+}
+
+.lp-map-image-container {
+  text-align: center;
+}
+
+.lp-map-title {
+  font-size: 1.3rem;
+  margin: 2rem 0 0.5rem 0;
+  padding: 0;
+}
+
+.lp-map-targets {
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+}
+
+.lp-map-lists {
+  padding-left: 2rem;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+}
+
+.lp-questions {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.lp-question-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.lp-question-card-question {
+  font-weight: bold;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.lp-question-card-question:before {
+  content: "Q";
+  padding: 0.2rem 0.7rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  background-color: #fd8d8d;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lp-question-card-answer {
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.lp-question-card-answer:before {
+  content: "A";
+  padding: 0.2rem 0.7rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  background-color: #ffc7c7;
+  color: #707070;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
