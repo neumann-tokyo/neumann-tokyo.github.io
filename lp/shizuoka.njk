@@ -36,3 +36,84 @@ layout: layouts/lp.njk
 <div class="lp-ribbon-container">
   <div class="lp-ribbon">こんな悩みありませんか</div>
 </div>
+<div class="lp-speech-bubbles-container">
+  <div class="lp-speech-bubble-card">
+    {{
+      comp.speechBubble({
+        direction: "right",
+        text: "店舗の業務システムが使いづらい..."
+      }) | safe
+    }}
+    <img
+      src="/img/lp/r1021.png"
+      alt="r1021.png"
+      class="lp-speech-bubble-card-image"
+    />
+  </div>
+  <div class="lp-speech-bubble-card-reverse">
+    {{
+      comp.speechBubble({
+        direction: "left",
+        text: "ホームページが古い気がするな？"
+      }) | safe
+    }}
+    <img
+      src="/img/lp/r0853.png"
+      alt="r0853.png"
+      class="lp-speech-bubble-card-image"
+    />
+  </div>
+  <div class="lp-speech-bubble-card">
+    {{
+      comp.speechBubble({
+        direction: "right",
+        text: "お客様向けのスマホアプリが必要！"
+      }) | safe
+    }}
+    <img
+      src="/img/lp/r1021.png"
+      alt="r1021.png"
+      class="lp-speech-bubble-card-image"
+    />
+  </div>
+  <div class="lp-speech-bubble-card-reverse">
+    {{
+      comp.speechBubble({
+        direction: "left",
+        text: "開発を依頼する資金が不安…"
+      }) | safe
+    }}
+    <img
+      src="/img/lp/r0853.png"
+      alt="r0853.png"
+      class="lp-speech-bubble-card-image"
+    />
+  </div>
+</div>
+<div class="lp-ribbon-container">
+  <div class="lp-ribbon">ノイマントーキョー株式会社なら</div>
+</div>
+<div class="lp-neumann">
+  <div class="lp-neumann-title-container">
+    <img src="/img/lp/r0280.png" alt="r0280.png" class="lp-neumann-image" />
+    <div class="lp-neumann-title">
+      <div class="lp-neumann-title-1">末長くあなたのお店の経営に伴走します</div>
+      <div class="lp-neumann-title-2">地元静岡密着のシステム開発会社</div>
+    </div>
+  </div>
+  <div class="lp-neumann-help">
+    <div>
+      <img
+        src="/img/lp/r0849.png"
+        alt="r0849.png"
+        class="lp-neumann-help-image"
+      />
+    </div>
+    <div class="lp-neumann-help-description">
+      公共の補助金取得もお手伝いします
+    </div>
+  </div>
+</div>
+<div class="lp-ribbon-container">
+  <div class="lp-ribbon">制作事例</div>
+</div>

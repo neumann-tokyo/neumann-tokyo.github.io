@@ -1,5 +1,6 @@
 .lp-layout-main {
   color: var(--lp-main-text-color);
+  background-color: white;
 }
 
 .lp-layout-footer {
