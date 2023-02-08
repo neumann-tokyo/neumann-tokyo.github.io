@@ -2,9 +2,7 @@
 layout: layouts/base.njk
 ---
 
-<div class="layout-main">
-  <main class="layout-main-center">{{ content | safe }}</main>
-</div>
+<main class="lp-layout-main">{{ content | safe }}</main>
 <footer class="lp-layout-footer">
   <div class="lp-footer">
     {{ comp.inquiryButton() | safe }}

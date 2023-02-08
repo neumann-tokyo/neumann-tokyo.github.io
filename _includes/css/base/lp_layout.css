@@ -1,3 +1,7 @@
+.lp-layout-main {
+  color: var(--lp-main-text-color);
+}
+
 .lp-layout-footer {
   background-color: var(--lp-footer-bg-color);
   color: var(--lp-footer-text-color);
