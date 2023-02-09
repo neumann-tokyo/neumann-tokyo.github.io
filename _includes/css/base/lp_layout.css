@@ -1,6 +1,6 @@
 .lp-layout-main {
   color: var(--lp-main-text-color);
-  background-color: white;
+  background-color: var(--lp-main-background-color);
   margin-bottom: 8rem;
 }
 

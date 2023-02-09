@@ -75,6 +75,11 @@
   line-height: 2rem;
 }
 
+.top-lp-link-container {
+  margin: 2rem;
+  text-align: center;
+}
+
 .top-layout-language {
   background-color: var(--header-bg-color);
   color: var(--header-text-color);

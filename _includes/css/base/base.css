@@ -15,7 +15,10 @@
   --lp-contents-width: 600px;
   --lp-main-text-color: #707070;
   --lp-footer-bg-color: #ffdd87;
-  --lp-footer-text-color: #000000;
+  --lp-footer-text-color: #707070;
+  --lp-accent-background-color: #ffc7c7;
+  --lp-accent-background-color-dark: #fd8d8d;
+  --lp-main-background-color: #ffffff;
 
   /* --accent-bg-color: #be2543;
   --accent-bg-color-dark: #941c34;
