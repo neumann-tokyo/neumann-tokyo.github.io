@@ -1,5 +1,5 @@
 .lp-title-container {
-  background-image: url("/img/lp/25295767_m.png");
+  background-image: url("/img/lp/25295767_m.webp");
   background-color: var(--lp-main-background-color);
 }
 
@@ -112,7 +112,7 @@
   align-self: end;
   width: 350px;
   line-height: 23px;
-  background-image: url("/img/lp/ribbon_01.png");
+  background-image: url("/img/lp/ribbon_01.webp");
   background-repeat: no-repeat;
   background-size: 100%;
   padding-top: 2.5rem;

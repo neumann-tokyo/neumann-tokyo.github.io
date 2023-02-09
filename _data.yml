@@ -1,58 +1,58 @@
 jobs:
-  - image: /img/work1.png
+  - image: /img/work1.webp
     name: ギルドワークス株式会社
     url: https://guildworks.jp
     description:
       - 新卒向け就職活動の能力試験システムの設計、開発、テスト、保守を担当
       - 大手建材販売企業のECサイトの設計、開発、テスト、保守を担当
       - "使用技術: Ruby, JavaScript, Docker, PostgreSQL, AWSなど"
-  - image: /img/work2.png
+  - image: /img/work2.webp
     name: Resily株式会社
     url: https://resily.com
     description:
       - OKR管理システムの開発支援
       - RubyシステムをGoにリプレースなど大規模な改修にも参画
       - "使用技術: Ruby, JavaScript, TypeScript, Go, Docker, PostgreSQL, GCPなど"
-  - image: /img/kasseika.png
+  - image: /img/kasseika.webp
     name: 株式会社地域活性化総合研究所
     url: https://kasseika.club
     description:
       - 鳥獣被害対策IoTデバイスの開発支援
       - 在庫管理システム開発支援
       - "使用技術: Ruby on Rails, Next.js, Python など"
-  - image: /img/work4.png
+  - image: /img/work4.webp
     name: 某大手アパレル企業
     url:
     description:
       - 売上やユーザー情報などのビッグデータの分析
       - "使用技術: Amazon Redshift, SQL"
-  - image: /img/logo_xcoo.png
+  - image: /img/logo_xcoo.webp
     name: 株式会社テンクー
     url: https://xcoo.co.jp
     description:
       - がんゲノム医療に関する遺伝子解析ツールの開発支援
       - "使用技術: Clojure, ClojureScript, PostgreSQL, Docker, など"
-  - image: /img/age-tech-logo.png
+  - image: /img/age-tech-logo.webp
     name: 株式会社AGE technologies
     url: https://age-technologies.co.jp
     description:
       - 不動産相続代行システムの開発支援
       - "使用技術: Clojure, ClojureScript, PostgreSQL, Docker, など"
 projects:
-  - image: /img/logo.png
+  - image: /img/logo.webp
     name: インターンシップ制度
     url:
     description:
       - 情報系の高専生や大学生などを対象としたインターンシップ制度を設けております
       - google classroom を活用した完全オンライン体制で実施します
       - Clojure や Flutter を用いたオリジナルドキュメントを使用します
-  - image: /img/lang1.png
+  - image: /img/lang1.webp
     name: Clojure Camp
     url: https://clojure-camp.com
     description:
       - Clojure の情報をまとめる Web ジャーナル
       - Clojure 初心者向けのコンテツなどを整備中
-  - image: /img/word-penne.png
+  - image: /img/word-penne.webp
     name: Word Penne
     url: https://word-penne-lp.neumann.tokyo/index-jp.html
     description:
@@ -66,7 +66,7 @@ projects:
       - 静岡県沼津市にあるプログラミング教室
       - 小学生から大人まで対応
       - 現役プログラマが在籍している点が他社と異なる
-  - image: /img/takoyaki.png
+  - image: /img/takoyaki.webp
     name: 料理イラストレーター ばば かずき
     url: https://food.kbaba1001.com
     description:
