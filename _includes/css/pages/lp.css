@@ -4,9 +4,11 @@
 }
 
 .lp-title {
-  max-width: var(--contents-width);
+  max-width: var(--lp-contents-width);
   margin: 0 auto;
   padding: 2rem;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .lp-title-slogan {
@@ -92,7 +94,7 @@
   justify-self: center;
   grid-column-start: 1;
   grid-row-start: 1;
-  max-width: 80%;
+  max-width: 320px;
   /* height: 200px;
   object-fit: cover;
   object-position: 100% 0; */
@@ -103,7 +105,7 @@
   grid-row-start: 1;
   justify-self: center;
   align-self: end;
-  width: 100%;
+  width: 350px;
   line-height: 23px;
   background-image: url("/img/lp/ribbon_01.png");
   background-repeat: no-repeat;
@@ -137,6 +139,8 @@
 }
 
 .lp-projects {
+  max-width: var(--lp-contents-width);
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -184,6 +188,8 @@
 }
 
 .lp-flow {
+  max-width: var(--lp-contents-width);
+  margin: 0 auto;
   padding: 2rem 2rem;
   display: flex;
   flex-direction: column;
@@ -212,6 +218,8 @@
 }
 
 .lp-map {
+  max-width: var(--lp-contents-width);
+  margin: 0 auto;
   padding: 2rem;
 }
 
@@ -237,6 +245,8 @@
 }
 
 .lp-questions {
+  max-width: var(--lp-contents-width);
+  margin: 0 auto;
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -293,4 +303,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .lp-title {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 }
