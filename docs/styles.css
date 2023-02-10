@@ -1273,6 +1273,10 @@ body {
   }
 }
 
+.articles-list-card {
+  margin: 1rem 0;
+}
+
 .articles-list-card-date {
   color: gray;
 }
