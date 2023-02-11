@@ -48,6 +48,18 @@
   font-size: 12px;
 }
 
+.lp-remote-container {
+  background-color: #ffeaea;
+  padding: 1rem;
+}
+
+.lp-remote {
+  max-width: var(--lp-contents-width);
+  margin: 0 auto;
+  font-size: 1.5rem;
+  line-height: 42px;
+}
+
 .lp-ribbon-container {
   background-color: var(--lp-accent-background-color);
   padding: 1.5rem;
@@ -230,6 +242,10 @@
 
 .lp-map-image-container {
   text-align: center;
+}
+
+.lp-map-image {
+  max-width: 300px;
 }
 
 .lp-map-title {

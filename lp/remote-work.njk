@@ -1,0 +1,322 @@
+---
+layout: layouts/lp.njk
+title: 全国オンライン対応、システム・スマホアプリ開発
+projects:
+  [
+    {
+      image: "/img/work1.webp",
+      title: "ギルドワークス株式会社",
+      description:
+        "新卒向け就職活動の能力試験システムの設計、開発、テスト、保守<br />
+        大手建材販売企業のECサイトの設計、開発、テスト、保守",
+    },
+    {
+      image: "/img/kasseika.webp",
+      title: "株式会社地域活性化総合研究所",
+      description: "鳥獣被害対策IoTデバイスの開発支援<br />
+        在庫管理システムの開発支援",
+    },
+    {
+      image: "/img/logo_xcoo.webp",
+      title: "株式会社テンクー",
+      description: "がんゲノム医療に関する遺伝子解析ツールの開発支援",
+    },
+    {
+      image: "/img/age-tech-logo.webp",
+      title: "株式会社AGE technologies",
+      description: "不動産相続代行システムの開発支援",
+    },
+  ]
+flows:
+  [
+    {
+      image: "/img/lp/r1199.webp",
+      title: "要件・仕様を相談",
+      description: "何度か打ち合わせを行い、必要なシステムの要件や仕様をまとめて開発の準備をします",
+    },
+    {
+      image: "/img/lp/r1315.webp",
+      title: "安心のフィードバック開発",
+      description:
+        "要件・仕様に基づいて開発を行います。1～2週間に1度程度打ち合わせを行い、動くシステムのレビューを行います。<br />
+        このとき気になった点をお客様からフィードバック頂き、開発に反映します。
+        ",
+    },
+    {
+      image: "/img/lp/r0989.webp",
+      title: "サービス運用保証",
+      description:
+        'システムを作った後、実際に運用することもサポートします。<br />
+        ノイマントーキョーは "作って終わり" ではなくあなたのビジネスに寄り添います。',
+    },
+  ]
+questions:
+  [
+    {
+      question: "開発費用・開発期間はどのくらいかかりますか？",
+      answer: "制作するシステムの規模や難易度によりますが、ノイマントーキョーではなるべく外部委託を少なくし少数精鋭のチームで開発することでコストと期間を抑えることが出来ます。",
+    },
+    {
+      question: "ITの知識が乏しいのですが、システム開発をお願いできますか？",
+      answer: "大丈夫です！要件や仕様は一緒に決めますが、開発や運用はまるっとお任せください。",
+    },
+    {
+      question: "助成金・補助金を使うことは出来ますか？",
+      answer: "全力でサポートします。システム開発は費用がかかるのでノイマントーキョーでは助成金・補助金を得るお手伝いもします。",
+    },
+  ]
+---
+
+<div class="lp-title-container">
+  <div class="lp-title">
+    <div>
+      <div class="lp-title-slogan">
+        <div class="lp-title-slogan-1">ずっと寄り添う</div>
+        <div class="lp-title-slogan-2">あなたの街のIT工務店</div>
+      </div>
+      <div class="lp-title-title">
+        <span>ビジネスを効率化する</span>
+        <div>
+          <span class="material-symbols-outlined"> settings_suggest </span>
+          <span>業務システム開発</span>
+        </div>
+        <div>
+          <span class="material-symbols-outlined"> house </span>
+          ホームページ制作
+        </div>
+        <div>
+          <span class="material-symbols-outlined"> app_shortcut </span>
+          スマートフォンアプリ制作
+        </div>
+      </div>
+    </div>
+    <div class="lp-title-logo-container">
+      <a href="/" class="lp-title-logo-link">
+        <img
+          src="/img/logo.webp"
+          alt="ノイマントーキョー株式会社"
+          class="lp-title-logo"
+          loading="lazy"
+        />
+        <div class="lp-title-company-name">ノイマントーキョー株式会社</div>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="lp-remote-container">
+  <div class="lp-remote">
+    <ul>
+      <li>全国どこからでもオンラインリモート対応可能！</li>
+      <li>初めてのリモートでもサポートします</li>
+      <li>
+        静岡東部の方は<a href="/lp/shizuoka/" rel="noopener">こちら</a
+        >もご覧ください
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="lp-ribbon-container">
+  <h2 class="lp-ribbon">こんな悩みありませんか</h2>
+</div>
+<div class="lp-speech-bubbles-container">
+  <div class="lp-speech-bubble-card">
+    {{
+      comp.speechBubble({
+        direction: "right",
+        text: "店舗の業務システムが使いづらい..."
+      }) | safe
+    }}
+    <img
+      src="/img/lp/r1021.webp"
+      alt="r1021.webp"
+      class="lp-speech-bubble-card-image"
+      loading="lazy"
+    />
+  </div>
+  <div class="lp-speech-bubble-card-reverse">
+    {{
+      comp.speechBubble({
+        direction: "left",
+        text: "ホームページが古い気がするな？"
+      }) | safe
+    }}
+    <img
+      src="/img/lp/r0853.webp"
+      alt="r0853.webp"
+      class="lp-speech-bubble-card-image"
+      loading="lazy"
+    />
+  </div>
+  <div class="lp-speech-bubble-card">
+    {{
+      comp.speechBubble({
+        direction: "right",
+        text: "お客様向けのスマホアプリが必要！"
+      }) | safe
+    }}
+    <img
+      src="/img/lp/r1021.webp"
+      alt="r1021.webp"
+      class="lp-speech-bubble-card-image"
+      loading="lazy"
+    />
+  </div>
+  <div class="lp-speech-bubble-card-reverse">
+    {{
+      comp.speechBubble({
+        direction: "left",
+        text: "開発を依頼する資金が不安…"
+      }) | safe
+    }}
+    <img
+      src="/img/lp/r0853.webp"
+      alt="r0853.webp"
+      class="lp-speech-bubble-card-image"
+      loading="lazy"
+    />
+  </div>
+</div>
+<div class="lp-ribbon-container">
+  <h2 class="lp-ribbon">ノイマントーキョー株式会社なら</h2>
+</div>
+<div class="lp-neumann">
+  <div class="lp-neumann-title-container">
+    <img
+      src="/img/lp/r0280.webp"
+      alt="r0280.webp"
+      class="lp-neumann-image"
+      loading="lazy"
+    />
+    <div class="lp-neumann-title">
+      <div class="lp-neumann-title-1">末長くあなたのお店の経営に伴走します</div>
+      <div class="lp-neumann-title-2">地元静岡密着のシステム開発会社</div>
+    </div>
+  </div>
+  <div class="lp-neumann-help">
+    <div>
+      <img
+        src="/img/lp/r0849.webp"
+        alt="r0849.webp"
+        class="lp-neumann-help-image"
+        loading="lazy"
+      />
+    </div>
+    <div class="lp-neumann-help-description">
+      公共の補助金取得もお手伝いします
+    </div>
+  </div>
+</div>
+<div class="lp-ribbon-container">
+  <h2 class="lp-ribbon">制作事例</h2>
+</div>
+<div class="lp-projects">
+  {% for project in projects %}
+  <div class="lp-project-card">
+    <img
+      src="{{ project.image }}"
+      alt="{{ project.title }}"
+      class="lp-project-card-image"
+      loading="lazy"
+    />
+    <div class="lp-project-card-text">
+      <h3 class="lp-project-card-title">{{ project.title }} 様</h3>
+      <p class="lp-project-card-description">
+        {{ project.description | safe }}
+      </p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+<div class="lp-ribbon-container">
+  <h2 class="lp-ribbon">特徴</h2>
+</div>
+<div class="lp-feature">
+  <h3 class="lp-feature-title">まるっとお任せください</h3>
+  <div class="lp-feature-card">
+    <img
+      src="/img/lp/parts_maru-04.webp"
+      alt="まるっとお任せください"
+      class="lp-feature-image"
+      loading="lazy"
+    />
+    <p class="lp-feature-description">
+      業務システム開発・スマホアプリ開発・<br />
+      ホームページ制作にすべて対応できる開発会社
+    </p>
+  </div>
+</div>
+<div class="lp-ribbon-container">
+  <h2 class="lp-ribbon">公開までの具体的な流れ</h2>
+</div>
+<div class="lp-flow">
+  {% for flow in flows %}
+  <div class="lp-flow-card">
+    <h3 class="lp-flow-card-title">{{ flow.title }}</h3>
+    <img
+      src="{{ flow.image }}"
+      alt="{{ flow.title }}"
+      class="lp-flow-card-image"
+      loading="lazy"
+    />
+    <p class="lp-flow-card-description">
+      {{ flow.description | safe }}
+    </p>
+  </div>
+  {% endfor %}
+</div>
+<div class="lp-ribbon-container">
+  <h2 class="lp-ribbon">全国オンラインリモート対応</h2>
+</div>
+<div class="lp-map">
+  <div class="lp-map-image-container">
+    <img
+      src="/img/lp/r0316.webp"
+      alt="全国オンラインリモート対応"
+      loading="lazy"
+      class="lp-map-image"
+    />
+  </div>
+  <h3 class="lp-map-title"></h3>
+  <ul class="lp-map-lists">
+    <li class="lp-map-list">
+      全国どこへでもオンラインリモートで対応可能です！
+    </li>
+    <li class="lp-map-list">
+      打合せやヒアリングから開発・運用にいたるまで全てリモートで対応します。
+    </li>
+    <li class="lp-map-list">
+      今までも東京・静岡・岩手・三重など全国各地で開発の実績があります。
+    </li>
+  </ul>
+</div>
+<div class="lp-ribbon-container">
+  <h2 class="lp-ribbon">よくあるご質問</h2>
+</div>
+<div class="lp-questions">
+  {% for question in questions %}
+  <div class="lp-question-card">
+    <div class="lp-question-card-question">
+      {{ question.question }}
+    </div>
+    <div class="lp-question-card-answer">
+      {{ question.answer }}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+<div class="lp-ribbon-container">
+  <h2 class="lp-ribbon">会社情報</h2>
+</div>
+<div class="lp-company">
+  <div class="lp-title-logo-container">
+    <a href="/" class="lp-title-logo-link">
+      <img
+        src="/img/logo.webp"
+        alt="ノイマントーキョー株式会社"
+        class="lp-title-logo"
+        loading="lazy"
+      />
+      <div class="lp-title-company-name">ノイマントーキョー株式会社</div>
+    </a>
+  </div>
+</div>

@@ -55,3 +55,44 @@ title: 事例紹介
     </div>
   </section>
 </div>
+
+<div class="jobs">
+  <section>
+    <h2>自社サービス</h2>
+    <div class="jobs-cards">
+      {% for project in projects %}
+      <div class="jobs-card">
+        <div class="jobs-card-image-container">
+          <img
+            src="{{ project.image }}"
+            alt="{{ project.name }}"
+            class="jobs-card-image"
+          />
+        </div>
+        <div class="jobs-card-description">
+          <h3 class="jobs-card-title">
+            {% if project.url %}
+            <a
+              href="{{ project.url }}"
+              target="_blank"
+              rel="noopener"
+              class="jobs-card-title-link"
+              >{{ project.name }}</a
+            >
+            {% else %}
+            {{ project.name }}
+            {% endif %}
+          </h3>
+          <div class="jobs-card-description-text">
+            <ul>
+              {% for text in project.description %}
+              <li>{{ text }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+</div>
