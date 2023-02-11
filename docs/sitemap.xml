@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://localhost/</loc>
+    <loc>https://www.neumann.tokyo/</loc>
     <lastmod>2023-02-09T00:39:26.983Z</lastmod>
   </url>
   <url>
-    <loc>http://localhost/about/</loc>
+    <loc>https://www.neumann.tokyo/about/</loc>
     <lastmod>2023-02-09T00:39:26.933Z</lastmod>
   </url>
   <url>
-    <loc>http://localhost/articles/</loc>
+    <loc>https://www.neumann.tokyo/articles/</loc>
     <lastmod>2023-02-09T00:39:26.933Z</lastmod>
   </url>
   <url>
-    <loc>http://localhost/articles/2023020101_newsletter202302/</loc>
+    <loc>https://www.neumann.tokyo/articles/2023020101_newsletter202302/</loc>
     <lastmod>2023-02-01T00:00:00.000Z</lastmod>
   </url>
   <url>
-    <loc>http://localhost/articles/2023020901_shizuokalp/</loc>
+    <loc>https://www.neumann.tokyo/articles/2023020901_shizuokalp/</loc>
     <lastmod>2023-02-09T00:00:00.000Z</lastmod>
   </url>
   <url>
-    <loc>http://localhost/articles/2023021001_learning-react-2023/</loc>
+    <loc>https://www.neumann.tokyo/articles/2023021001_learning-react-2023/</loc>
     <lastmod>2023-02-10T00:00:00.000Z</lastmod>
   </url>
   <url>
-    <loc>http://localhost/jobs/</loc>
+    <loc>https://www.neumann.tokyo/jobs/</loc>
     <lastmod>2023-02-09T00:39:26.983Z</lastmod>
   </url>
   <url>
-    <loc>http://localhost/lp/remote-work/</loc>
+    <loc>https://www.neumann.tokyo/lp/remote-work/</loc>
     <lastmod>2023-02-11T11:28:31.247Z</lastmod>
   </url>
   <url>
-    <loc>http://localhost/lp/shizuoka/</loc>
+    <loc>https://www.neumann.tokyo/lp/shizuoka/</loc>
     <lastmod>2023-02-11T11:50:39.169Z</lastmod>
   </url>
   <url>
-    <loc>http://localhost/recruitment/</loc>
+    <loc>https://www.neumann.tokyo/recruitment/</loc>
     <lastmod>2023-02-09T00:39:26.983Z</lastmod>
   </url>
   <url>
-    <loc>http://localhost/recruitment/parttime/</loc>
+    <loc>https://www.neumann.tokyo/recruitment/parttime/</loc>
     <lastmod>2023-02-09T00:39:26.983Z</lastmod>
   </url>
   <url>
-    <loc>http://localhost/recruitment/regular/</loc>
+    <loc>https://www.neumann.tokyo/recruitment/regular/</loc>
     <lastmod>2023-02-09T00:39:26.983Z</lastmod>
   </url>
 </urlset>
