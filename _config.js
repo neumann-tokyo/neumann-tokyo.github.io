@@ -7,6 +7,7 @@ import date from "lume/plugins/date.ts";
 import lightningCss from "lume/plugins/lightningcss.ts";
 import postcss from "lume/plugins/postcss.ts";
 import terser from "lume/plugins/terser.ts";
+import sitemap from "lume/plugins/sitemap.ts";
 
 const site = lume();
 
@@ -19,6 +20,7 @@ site.use(date());
 site.use(lightningCss());
 site.use(postcss());
 site.use(terser());
+site.use(sitemap());
 site.copy("img");
 site.copy("site.webmanifest");
 site.copy("CNAME");
