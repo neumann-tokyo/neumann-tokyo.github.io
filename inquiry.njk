@@ -1,0 +1,50 @@
+---
+layout: layouts/main.njk
+title: 問い合わせ
+---
+
+<div class="inquiry">
+  <section>
+    <h2>問い合わせ</h2>
+
+    <div class="inquiry-cards">
+      <div class="inquiry-card">
+        <img
+          src="/img/949.png"
+          alt="お問い合わせ"
+          loading="lazy"
+          class="inquiry-card-image"
+        />
+        <div>
+          <h3>ご商談・ご質問等</h3>
+          <div>
+            弊社とご商談をご希望の方やご質問のある方はこちらからお問い合わせください。
+          </div>
+          <div>
+            {{ comp.inquiryButton() | safe }}
+          </div>
+        </div>
+      </div>
+
+      <div class="inquiry-card">
+        <img
+          src="/img/316.png"
+          alt="求人申し込み"
+          loading="lazy"
+          class="inquiry-card-image"
+        />
+        <div>
+          <h3>求人応募</h3>
+          <p>
+            弊社の求人へ申し込みをご希望の方はこちらから詳細情報をご確認ください
+          </p>
+          <div>
+            <a class="button-link" href="/recruitment" rel="noopener">
+              求人情報
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
