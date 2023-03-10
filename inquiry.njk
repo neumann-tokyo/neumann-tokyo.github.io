@@ -1,0 +1,81 @@
+---
+layout: layouts/main.njk
+title: 問い合わせ
+---
+
+<div class="inquiry">
+  <section>
+    <h2>問い合わせ</h2>
+
+    <div class="inquiry-cards">
+      <div class="inquiry-card">
+        <img
+          src="/img/949.png"
+          alt="お問い合わせ"
+          loading="lazy"
+          class="inquiry-card-image"
+        />
+        <div>
+          <h3>ご商談・ご質問等</h3>
+          <div>
+            弊社とご商談をご希望の方やご質問のある方はこちらからお問い合わせください。
+          </div>
+          <div>
+            {{ comp.inquiryButton() | safe }}
+          </div>
+        </div>
+      </div>
+
+      <div class="inquiry-card">
+        <img
+          src="/img/316.png"
+          alt="求人申し込み"
+          loading="lazy"
+          class="inquiry-card-image"
+        />
+        <div>
+          <h3>求人応募</h3>
+          <p>
+            弊社の求人へ申し込みをご希望の方はこちらから詳細情報をご確認ください
+          </p>
+          <div>
+            <a class="button-link" href="/recruitment" rel="noopener">
+              求人情報
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="inquiry-card">
+        <img
+          src="/img/754.png"
+          alt="雑談・質問など"
+          loading="lazy"
+          class="inquiry-card-image"
+        />
+        <div>
+          <h3>雑談・質問など</h3>
+          <p>
+            代表取締役と雑談や質問などがお申し込みいただけます。<br />
+            例えば、次のような話ができます。
+          </p>
+          <ul>
+            <li>IT業界に就職したいが未経験なので話を聞いてほしい</li>
+            <li>地方でIT企業やるのってどんな感じ？</li>
+            <li>なんでたまに和服着てるの？</li>
+          </ul>
+          <p>あるいは右下の吹き出しボタンからチャットで話せます。</p>
+          <div>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScQ5hdV2Pp2AP2b2WIHMsrdMH7CyyQBbRtCE617Xi3zXi_o8Q/viewform?usp=sf_link"
+              target="_blank"
+              rel="noopener"
+              class="button-link"
+              >雑談申し込み</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

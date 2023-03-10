@@ -1652,3 +1652,25 @@ body {
     justify-content: flex-start;
   }
 }
+
+.inquiry-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: var(--header-bg-color);
+  border-radius: 2rem;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.inquiry-card {
+  background-color: white;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  display: flex;
+}
+
+.inquiry-card-image {
+  width: 400px;
+}

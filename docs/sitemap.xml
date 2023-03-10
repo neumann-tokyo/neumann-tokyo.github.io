@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.neumann.tokyo/</loc>
-    <lastmod>2023-02-09T00:39:26.983Z</lastmod>
+    <lastmod>2023-03-10T07:18:47.456Z</lastmod>
   </url>
   <url>
     <loc>https://www.neumann.tokyo/about/</loc>
-    <lastmod>2023-02-09T00:39:26.933Z</lastmod>
+    <lastmod>2023-03-10T07:20:34.696Z</lastmod>
   </url>
   <url>
     <loc>https://www.neumann.tokyo/articles/</loc>
-    <lastmod>2023-02-09T00:39:26.933Z</lastmod>
+    <lastmod>2023-03-10T07:18:47.236Z</lastmod>
   </url>
   <url>
     <loc>https://www.neumann.tokyo/articles/2023020101_newsletter202302/</loc>
@@ -29,27 +29,31 @@
     <lastmod>2023-03-07T00:00:00.000Z</lastmod>
   </url>
   <url>
+    <loc>https://www.neumann.tokyo/inquiry/</loc>
+    <lastmod>2023-03-10T07:20:34.706Z</lastmod>
+  </url>
+  <url>
     <loc>https://www.neumann.tokyo/jobs/</loc>
-    <lastmod>2023-02-09T00:39:26.983Z</lastmod>
+    <lastmod>2023-03-10T07:18:47.456Z</lastmod>
   </url>
   <url>
     <loc>https://www.neumann.tokyo/lp/remote-work/</loc>
-    <lastmod>2023-03-07T08:26:48.095Z</lastmod>
+    <lastmod>2023-03-10T07:18:47.456Z</lastmod>
   </url>
   <url>
     <loc>https://www.neumann.tokyo/lp/shizuoka/</loc>
-    <lastmod>2023-02-11T11:50:39.169Z</lastmod>
+    <lastmod>2023-03-10T07:18:47.456Z</lastmod>
   </url>
   <url>
     <loc>https://www.neumann.tokyo/recruitment/</loc>
-    <lastmod>2023-02-09T00:39:26.983Z</lastmod>
+    <lastmod>2023-03-10T07:18:47.456Z</lastmod>
   </url>
   <url>
     <loc>https://www.neumann.tokyo/recruitment/parttime/</loc>
-    <lastmod>2023-02-09T00:39:26.983Z</lastmod>
+    <lastmod>2023-03-10T07:18:47.456Z</lastmod>
   </url>
   <url>
     <loc>https://www.neumann.tokyo/recruitment/regular/</loc>
-    <lastmod>2023-02-09T00:39:26.983Z</lastmod>
+    <lastmod>2023-03-10T07:18:47.456Z</lastmod>
   </url>
 </urlset>

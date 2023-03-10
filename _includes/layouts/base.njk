@@ -70,6 +70,24 @@ description: ノイマントーキョー株式会社はITとテレワークを�
     <meta property="og:locale" content="ja_JP" />
 
     <title>ノイマントーキョー株式会社 - {{ title }}</title>
+
+    <!-- Sendinblue Conversations {literal} -->
+    <script>
+      (function (d, w, c) {
+        w.SibConversationsID = "640ad8af67321d3251083791";
+        w[c] =
+          w[c] ||
+          function () {
+            (w[c].q = w[c].q || []).push(arguments);
+          };
+        var s = d.createElement("script");
+        s.async = true;
+        s.src =
+          "https://conversations-widget.sendinblue.com/sib-conversations.js";
+        if (d.head) d.head.appendChild(s);
+      })(document, window, "SibConversations");
+    </script>
+    <!-- /Sendinblue Conversations {/literal} -->
   </head>
   <body class="layout">
     {{ content | safe }}
