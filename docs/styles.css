@@ -1674,3 +1674,22 @@ body {
 .inquiry-card-image {
   width: 400px;
 }
+
+.inquiry-card-button {
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .inquiry-cards {
+    width: 90%;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .inquiry-card {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .inquiry-card-image {
+    width: 100%;
+  }
+}
