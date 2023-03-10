@@ -8,17 +8,14 @@ case ${1} in
 "install") ## install dependencies
 [ -z $(which deno) ] && brew install deno
 [ -z $(which lume) ] && deno run -A https://deno.land/x/lume/install.ts
-[ -z $(which node) ] && brew install node
-npm install
-npm run prepare
 ;;
 "up") ## start server
 deno task serve
 ;;
 "fmt") ## format all files
 # deno fmt は html や scss に対応していないので prettier を使う
-npx prettier -w .
-npx prettier -w --parser=html $(find . -name "*.njk")
+# npx prettier -w .
+# npx prettier -w --parser=html $(find . -name "*.njk")
 ;;
 "build") ## build for production
 deno task build
