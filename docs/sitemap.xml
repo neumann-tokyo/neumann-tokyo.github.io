@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.neumann.tokyo/</loc>
-    <lastmod>2023-03-10T07:18:47.456Z</lastmod>
+    <lastmod>2023-03-21T00:38:42.866Z</lastmod>
   </url>
   <url>
     <loc>https://www.neumann.tokyo/about/</loc>
-    <lastmod>2023-03-10T08:20:09.534Z</lastmod>
+    <lastmod>2023-03-21T00:38:42.806Z</lastmod>
   </url>
   <url>
     <loc>https://www.neumann.tokyo/articles/</loc>
-    <lastmod>2023-03-10T07:18:47.236Z</lastmod>
+    <lastmod>2023-03-21T00:59:21.637Z</lastmod>
   </url>
   <url>
     <loc>https://www.neumann.tokyo/articles/2023020101_newsletter202302/</loc>
@@ -33,31 +33,35 @@
     <lastmod>2023-03-10T00:00:00.000Z</lastmod>
   </url>
   <url>
+    <loc>https://www.neumann.tokyo/articles/2023032101_add-company-slogan/</loc>
+    <lastmod>2023-03-21T00:00:00.000Z</lastmod>
+  </url>
+  <url>
     <loc>https://www.neumann.tokyo/inquiry/</loc>
-    <lastmod>2023-03-10T08:20:09.555Z</lastmod>
+    <lastmod>2023-03-21T00:38:42.866Z</lastmod>
   </url>
   <url>
     <loc>https://www.neumann.tokyo/jobs/</loc>
-    <lastmod>2023-03-10T07:18:47.456Z</lastmod>
+    <lastmod>2023-03-21T00:59:21.637Z</lastmod>
   </url>
   <url>
     <loc>https://www.neumann.tokyo/lp/remote-work/</loc>
-    <lastmod>2023-03-10T07:18:47.456Z</lastmod>
+    <lastmod>2023-03-21T00:59:21.637Z</lastmod>
   </url>
   <url>
     <loc>https://www.neumann.tokyo/lp/shizuoka/</loc>
-    <lastmod>2023-03-10T07:18:47.456Z</lastmod>
+    <lastmod>2023-03-21T00:59:21.637Z</lastmod>
   </url>
   <url>
     <loc>https://www.neumann.tokyo/recruitment/</loc>
-    <lastmod>2023-03-10T07:18:47.456Z</lastmod>
+    <lastmod>2023-03-21T00:59:21.637Z</lastmod>
   </url>
   <url>
     <loc>https://www.neumann.tokyo/recruitment/parttime/</loc>
-    <lastmod>2023-03-10T07:18:47.456Z</lastmod>
+    <lastmod>2023-03-21T00:38:42.866Z</lastmod>
   </url>
   <url>
     <loc>https://www.neumann.tokyo/recruitment/regular/</loc>
-    <lastmod>2023-03-10T07:18:47.456Z</lastmod>
+    <lastmod>2023-03-21T00:59:21.637Z</lastmod>
   </url>
 </urlset>

@@ -175,7 +175,8 @@ textarea {
  */
 
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -185,7 +186,8 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -1050,6 +1052,27 @@ body {
 .about h2,
 .about h3 {
   color: var(--accent-color);
+}
+
+.about-company-slogan {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 5rem 0;
+}
+
+.about-company-slogan-line {
+  padding: 0 2rem;
+  border-bottom: double 3px var(--accent-color);
+}
+
+.about-company-slogan-lists {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.about-company-slogan-lists dt {
+  font-weight: bold;
 }
 
 .about-company {
