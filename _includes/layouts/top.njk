@@ -7,17 +7,11 @@ layout: layouts/base.njk
     <a href="https://en.neumann.tokyo" class="header-language-link">English</a>
   </div>
   <div class="header">
-    <a href="/">
-      {{ comp.headerTitle() | safe }}
-    </a>
-    <div class="header-nav-container">
-      {{ comp.headerNav() | safe }}
-    </div>
+    <a href="/"> {{ comp.headerTitle() | safe }} </a>
+    <div class="header-nav-container">{{ comp.headerNav() | safe }}</div>
   </div>
 </header>
 {{ content | safe }}
 <footer class="layout-footer">
-  <div class="footer">
-    {{ comp.footer() | safe }}
-  </div>
+  <div class="footer">{{ comp.footer() | safe }}</div>
 </footer>

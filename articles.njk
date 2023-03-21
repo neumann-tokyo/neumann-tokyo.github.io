@@ -12,9 +12,7 @@ layout: layouts/main.njk
         {{ article.data.date | date('DATE') }}
       </div>
       <a href="{{ article.data.url }}" class="articles-list-card-title-link">
-        <h2 class="articles-list-card-title">
-          {{ article.data.title }}
-        </h2>
+        <h2 class="articles-list-card-title">{{ article.data.title }}</h2>
       </a>
     </div>
     {% endfor %}

@@ -7,19 +7,15 @@ ARGS=${@:2}
 case ${1} in
 "install") ## install dependencies
 [ -z $(which deno) ] && brew install deno
-[ -z $(which lume) ] && deno run -A https://deno.land/x/lume/install.ts
 ;;
 "up") ## start server
 deno task serve
 ;;
 "fmt") ## format all files
-# deno fmt は html や scss に対応していないので prettier を使う
-# npx prettier -w .
-# npx prettier -w --parser=html $(find . -name "*.njk")
+deno task fmt
 ;;
 "build") ## build for production
 deno task build
-# TODO sitemap.xml と robots.txt 内のdomainを修正する
 ;;
 "help" | *)
 (
