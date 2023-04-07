@@ -1,0 +1,121 @@
+.services-top-image {
+  width: 100%;
+}
+
+.services-h2::before {
+  content: "▶";
+  color: var(--services-accent-color);
+}
+.services-h2 {
+  border-bottom: double 3px var(--services-accent-color);
+}
+
+.services-card {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.services-card-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.services-card-image {
+  width: 45%;
+}
+.services-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 100%;
+}
+
+.services-slogan-list {
+  background-color: var(--services-accent-background-color);
+  border-radius: 2rem;
+  padding: 3rem;
+  font-size: 1.8rem;
+  list-style: none;
+}
+.services-slogan-list-item::before {
+  content: "😊";
+  color: var(--services-accent-color);
+}
+
+.services-speech-bubble-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.services-speech-bubble-left {
+  display: flex;
+  align-items: center;
+}
+
+.services-speech-bubble-right {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.services-speech-bubble-image {
+  width: 20rem;
+}
+
+.services-speech-bubble-text {
+  font-size: 1.5rem;
+}
+
+.services-speech-bubble-neumann {
+  background-color: var(--services-accent-background-color);
+  border-radius: 2rem;
+  padding: 3rem;
+  list-style: none;
+}
+
+.services-flow-container {
+  background-color: var(--services-accent-background-color);
+  border-radius: 2rem;
+  padding: 3rem;
+}
+
+.services-flow-h3 {
+  text-align: center;
+}
+.services-flow-h3-border {
+  border-bottom: solid 2px var(--services-accent-color);
+  padding: 0 2rem;
+}
+
+.services-flow-card {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 2rem;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.services-flow-card-image {
+  width: 30%;
+}
+
+.services-flow-card-item {
+  margin-bottom: 1rem;
+}
+
+.services-online {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services-online-image {
+  width: 30rem;
+}
+.services-online-item {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
