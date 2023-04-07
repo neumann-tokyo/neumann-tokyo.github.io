@@ -1,3 +1,13 @@
+.top-slider-container {
+  overflow-y: hidden;
+}
+.top-slider-link {
+  text-decoration: none;
+}
+.top-slider-image {
+  max-width: 100%;
+}
+
 .top-notification {
   text-align: center;
   font-weight: bold;
