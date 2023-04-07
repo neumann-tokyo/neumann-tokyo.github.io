@@ -1,3 +1,6 @@
+.top-slider {
+  margin-top: 1rem;
+}
 .top-slider-container {
   overflow-y: hidden;
 }
@@ -276,10 +279,6 @@
   grid-row-start: 1;
   justify-self: center;
   align-self: center;
-}
-
-.top-inquiry-button-container {
-  text-align: center;
 }
 
 @media only screen and (max-width: 800px) {
