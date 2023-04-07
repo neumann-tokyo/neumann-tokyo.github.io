@@ -2,6 +2,9 @@
   margin-top: 1rem;
   margin-bottom: 3rem;
 }
+.services-hidden-title {
+  display: none;
+}
 .services-top-image {
   width: 100%;
 }
