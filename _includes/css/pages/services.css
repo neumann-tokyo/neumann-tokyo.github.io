@@ -111,7 +111,7 @@
 }
 
 .services-flow-card-image {
-  width: 30%;
+  width: 20rem;
 }
 
 .services-flow-card-item {
@@ -124,9 +124,34 @@
   align-items: center;
 }
 .services-online-image {
-  width: 30rem;
+  width: 100%;
+  max-width: 30rem;
 }
 .services-online-item {
   margin-bottom: 1rem;
   font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .services-card {
+    flex-direction: column-reverse;
+  }
+  .services-card-reverse {
+    flex-direction: column-reverse;
+  }
+  .services-speech-bubble-left {
+    flex-direction: column-reverse;
+  }
+  .services-speech-bubble-right {
+    flex-direction: column-reverse;
+  }
+  .services-flow-container {
+    padding: 1rem;
+  }
+  .services-flow-card-content {
+    flex-direction: column;
+  }
+  .services-flow-h3-border {
+    padding: 0;
+  }
 }
