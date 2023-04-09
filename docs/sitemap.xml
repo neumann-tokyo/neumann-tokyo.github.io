@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.neumann.tokyo/</loc>
-    <lastmod>2023-03-21T00:38:42.866Z</lastmod>
+    <lastmod>2023-04-09T00:38:57.334Z</lastmod>
   </url>
   <url>
     <loc>https://www.neumann.tokyo/about/</loc>
-    <lastmod>2023-03-21T00:38:42.806Z</lastmod>
+    <lastmod>2023-04-09T00:38:57.334Z</lastmod>
   </url>
   <url>
     <loc>https://www.neumann.tokyo/articles/</loc>
@@ -39,6 +39,10 @@
   <url>
     <loc>https://www.neumann.tokyo/articles/2023032401_what-is-the-company-slogan/</loc>
     <lastmod>2023-03-24T00:00:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.neumann.tokyo/articles/2023040301_flutterflow/</loc>
+    <lastmod>2023-04-03T00:00:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.neumann.tokyo/inquiry/</loc>
