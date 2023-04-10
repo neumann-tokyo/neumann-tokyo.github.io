@@ -135,6 +135,39 @@
   font-size: 1.3rem;
 }
 
+.services-jobs {
+  background-color: var(--services-accent-background-color);
+  border-radius: 2rem;
+  padding: 2rem;
+  column-count: 2;
+}
+
+.services-jobs-card {
+  background-color: white;
+  border-radius: 2rem;
+  padding: 2rem;
+  width: 350px;
+  margin: 1rem;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.services-jobs-card-image {
+  width: 280px;
+  height: 280px;
+  object-fit: scale-down;
+}
+.services-jobs-card-text {
+  color: black;
+  text-decoration: underline;
+  text-align: center;
+}
+.services-jobs-more {
+  text-align: right;
+  margin-top: 1rem;
+}
+
 @media only screen and (max-width: 800px) {
   .services-card {
     flex-direction: column-reverse;
@@ -156,5 +189,17 @@
   }
   .services-flow-h3-border {
     padding: 0;
+  }
+
+  .services-jobs {
+    column-count: 1;
+    padding: 1rem;
+  }
+  .services-jobs-card {
+    width: 100%;
+    max-width: 280px;
+  }
+  .services-jobs-card-image {
+    width: 100%;
   }
 }

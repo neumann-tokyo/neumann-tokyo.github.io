@@ -34,17 +34,7 @@ ogimage: /img/slider/service3.png
     }) | safe
   }}
 
-  <h2 class="services-h2">開発事例</h2>
-  <div>
-    <ul>
-      <li>岩手特産品のアンテナショップの在庫・受発注管理システム</li>
-      <li>OKR管理システムの開発支援</li>
-      <li>大手建材販売企業の EC サイト (通販サイト)</li>
-      <li>不動産相続代行システムの開発支援</li>
-    </ul>
-    <a href="/jobs">より詳しく</a>
-  </div>
-
+  {{ comp.serviceJobs() | safe }}
   {{ comp.serviceRequirement() | safe }}
   {{ comp.serviceFlow() | safe }}
   {{ comp.serviceOnline() | safe }}

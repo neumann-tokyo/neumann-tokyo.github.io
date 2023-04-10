@@ -1,0 +1,19 @@
+<h2 class="services-h2">開発事例</h2>
+<div class="services-jobs">
+  {% for job in serviceJobs %}
+  <a class="services-jobs-card" href="{{ job.url }}">
+    <img
+      src="{{ job.image }}"
+      class="services-jobs-card-image"
+      alt="{{ job.title }}"
+      loading="lazy"
+    />
+    <div class="services-jobs-card-text">
+      {{ job.title }}
+    </div>
+  </a>
+  {% endfor %}
+</div>
+<div class="services-jobs-more">
+  <a href="/jobs">より詳しく</a>
+</div>
