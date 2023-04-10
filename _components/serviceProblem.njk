@@ -1,0 +1,19 @@
+<h2 class="services-h2">こんな悩みはありませんか？</h2>
+<div class="services-card">
+  <img
+    src="/img/lp/r0853.webp"
+    class="services-card-image"
+    alt="こんな悩みはありませんか？"
+  />
+  <div class="services-card-text">
+    {% for message in messages %}
+    {{
+      comp.speechBubble({
+        direction: "left",
+        text: message,
+        class: "services-speech-bubble-text"
+      }) | safe
+    }}
+    {% endfor %}
+  </div>
+</div>
