@@ -172,6 +172,7 @@
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
+  width: 100%;
 }
 
 .services-nepal-flag {
@@ -207,6 +208,9 @@
   .services-card-reverse {
     flex-direction: column-reverse;
   }
+  .services-card-image {
+    width: 15rem;
+  }
   .services-speech-bubble-left {
     flex-direction: column-reverse;
   }
@@ -233,5 +237,19 @@
   }
   .services-jobs-card-image {
     width: 100%;
+  }
+
+  .services-nepal {
+    flex-direction: column;
+  }
+  .services-nepal-flag {
+    width: 10rem;
+  }
+  .services-nepal-flag-container {
+    width: 100%;
+  }
+  .services-nepal-items {
+    width: 80%;
+    padding: 2rem;
   }
 }
