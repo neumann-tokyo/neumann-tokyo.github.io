@@ -1,6 +1,41 @@
 ---
 layout: layouts/main.njk
 title: ネパールオフショア開発
+ogimage: /img/slider/service4.png
 ---
 
-<div>ネパールオフショア開発</div>
+<div class="services">
+  <h1 class="services-hidden-title">ネパールオフショア開発</h1>
+  <img
+    src="/img/slider/service4.png"
+    alt="ネパールオフショア開発"
+    class="services-top-image"
+  />
+  <div class="inquiry-button-container">
+    {{ comp.inquiryButton() | safe }}
+  </div>
+
+  {{
+    comp.serviceProblem({
+      messages: [
+        "システム開発を外注したいが予算が少ない",
+        "オフショア開発は言葉の壁や品質が心配",
+        "ITに詳しくないのでオフショア開発は不安"
+      ]
+    }) | safe
+  }}
+  {{
+    comp.serviceSellingPoint({
+      messages: ["日本人が窓口になり要件をまとめたり進捗を共有します", "", ""]
+    }) | safe
+  }}
+
+  <div>
+    <h2 class="services-h2">ノイマントーキョーが選ばれる理由</h2>
+  </div>
+
+  {{ comp.serviceRequirement() | safe }}
+  {{ comp.serviceFlow() | safe }}
+  {{ comp.serviceOnline() | safe }}
+  {{ comp.serviceInquiry() | safe }}
+</div>
