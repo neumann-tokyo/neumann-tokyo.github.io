@@ -373,6 +373,9 @@ template {
   --lp-accent-background-color-dark: #fd8d8d;
   --lp-main-background-color: #ffffff;
 
+  --services-accent-color: #fd8d8d;
+  --services-accent-background-color: #ffecec;
+
   /* --accent-bg-color: #be2543;
   --accent-bg-color-dark: #941c34;
   --accent-text-color: #f2d3d9;
@@ -499,6 +502,11 @@ body {
   text-decoration: none;
   font-weight: bold;
   white-space: nowrap;
+}
+
+.inquiry-button-container {
+  margin: 1rem 0;
+  text-align: center;
 }
 
 .text-right {
@@ -712,12 +720,29 @@ body {
   margin: 0;
   padding: 0;
   font-size: 1.2rem;
+  text-align: center;
 }
 
 @media only screen and (max-width: 800px) {
   .speech-bubble {
     font-size: 0.9rem;
   }
+}
+
+.top-slider {
+  margin-top: 1rem;
+}
+
+.top-slider-container {
+  overflow-y: hidden;
+}
+
+.top-slider-link {
+  text-decoration: none;
+}
+
+.top-slider-image {
+  max-width: 100%;
 }
 
 .top-notification {
@@ -992,10 +1017,6 @@ body {
   grid-row-start: 1;
   justify-self: center;
   align-self: center;
-}
-
-.top-inquiry-button-container {
-  text-align: center;
 }
 
 @media only screen and (max-width: 800px) {
@@ -1714,5 +1735,276 @@ body {
   }
   .inquiry-card-image {
     width: 100%;
+  }
+}
+
+.services {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.services-hidden-title {
+  display: none;
+}
+
+.services-top-image {
+  width: 100%;
+}
+
+.services-h2::before {
+  content: "▶";
+  color: var(--services-accent-color);
+}
+
+.services-h2 {
+  border-bottom: double 3px var(--services-accent-color);
+}
+
+.services-card {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-card-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-card-image {
+  width: 45%;
+}
+
+.services-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 100%;
+}
+
+.services-slogan-list {
+  background-color: var(--services-accent-background-color);
+  border-radius: 2rem;
+  padding: 3rem;
+  font-size: 1.8rem;
+  list-style: none;
+}
+
+.services-slogan-list-item::before {
+  content: "😊";
+  color: var(--services-accent-color);
+}
+
+.services-speech-bubble-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.services-speech-bubble-left {
+  display: flex;
+  align-items: center;
+}
+
+.services-speech-bubble-right {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.services-speech-bubble-image {
+  width: 20rem;
+}
+
+.services-speech-bubble-text {
+  font-size: 1.5rem;
+}
+
+.services-speech-bubble-neumann {
+  background-color: var(--services-accent-background-color);
+  border-radius: 2rem;
+  padding: 3rem;
+  list-style: none;
+}
+
+.services-flow-container {
+  background-color: var(--services-accent-background-color);
+  border-radius: 2rem;
+  padding: 3rem;
+}
+
+.services-flow-h3 {
+  text-align: center;
+}
+
+.services-flow-h3-border {
+  border-bottom: solid 2px var(--services-accent-color);
+  padding: 0 2rem;
+}
+
+.services-flow-card {
+  background-color: white;
+  border-radius: 2rem;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.services-flow-card-title {
+  text-align: center;
+}
+
+.services-flow-card-content {
+  display: flex;
+  align-items: center;
+}
+
+.services-flow-card-image {
+  width: 20rem;
+}
+
+.services-flow-card-item {
+  margin-bottom: 1rem;
+}
+
+.services-online {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-online-image {
+  width: 100%;
+  max-width: 30rem;
+}
+
+.services-online-item {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.services-jobs {
+  background-color: var(--services-accent-background-color);
+  border-radius: 2rem;
+  padding: 2rem;
+  -moz-column-count: 2;
+       column-count: 2;
+}
+
+.services-jobs-card {
+  background-color: white;
+  border-radius: 2rem;
+  padding: 2rem;
+  width: 350px;
+  margin: 1rem;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.services-jobs-card-image {
+  width: 280px;
+  height: 280px;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
+.services-jobs-card-text {
+  color: black;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.services-jobs-more {
+  text-align: right;
+  margin-top: 1rem;
+}
+
+.services-nepal {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 100%;
+}
+
+.services-nepal-flag {
+  width: 15rem;
+}
+
+.services-nepal-flag-container {
+  width: 50%;
+  text-align: center;
+}
+
+.services-nepal-items {
+  width: 50%;
+  font-size: 1.5rem;
+  background-color: var(--services-accent-background-color);
+  border-radius: 2rem;
+  padding: 3rem;
+  list-style: none;
+}
+
+.services-nepal-item::before {
+  content: "😄";
+}
+
+.services-nepal-em {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 800px) {
+  .services-card {
+    flex-direction: column-reverse;
+  }
+  .services-card-reverse {
+    flex-direction: column-reverse;
+  }
+  .services-card-image {
+    width: 15rem;
+  }
+  .services-speech-bubble-left {
+    flex-direction: column-reverse;
+  }
+  .services-speech-bubble-right {
+    flex-direction: column-reverse;
+  }
+  .services-flow-container {
+    padding: 1rem;
+  }
+  .services-flow-card-content {
+    flex-direction: column;
+  }
+  .services-flow-h3-border {
+    padding: 0;
+  }
+
+  .services-jobs {
+    -moz-column-count: 1;
+         column-count: 1;
+    padding: 1rem;
+  }
+  .services-jobs-card {
+    width: 100%;
+    max-width: 280px;
+  }
+  .services-jobs-card-image {
+    width: 100%;
+  }
+
+  .services-nepal {
+    flex-direction: column;
+  }
+  .services-nepal-flag {
+    width: 10rem;
+  }
+  .services-nepal-flag-container {
+    width: 100%;
+  }
+  .services-nepal-items {
+    width: 80%;
+    padding: 2rem;
   }
 }

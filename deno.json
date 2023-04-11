@@ -4,7 +4,7 @@
     "prettier": "echo \"import 'npm:prettier@latest'\" | deno run -A --unstable npm:prettier",
     "lume": "echo \"import 'lume/cli.ts'\" | deno run --unstable -A -",
     "fmt": "deno task prettier --ignore-path .prettierignore -w \"**/*.+(js|jsx|css|json|md)\" && deno task prettier --ignore-path .prettierignore -w --parser=html \"**/*.njk\"",
-    "build": "deno task lume",
+    "build": "deno task lume --dest docs --location https://www.neumann.tokyo",
     "serve": "deno task lume -s"
   }
 }
