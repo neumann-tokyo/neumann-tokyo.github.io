@@ -1,10 +1,66 @@
 ---
 layout: layouts/top.njk
 title: TOP
+permalink: |-
+  <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+  <script src="https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js" crossorigin="anonymous" defer></script>
 ---
 
 <div class="layout-main">
   <main class="layout-main-center">
+    <div
+      class="swiffy-slider slider-item-reveal slider-nav-autoplay top-slider"
+      data-slider-nav-autoplay-interval="3000"
+    >
+      <ul class="slider-container top-slider-container">
+        <li>
+          <a href="/services/homepage" class="top-slider-link">
+            <img
+              src="/img/slider/service1.webp"
+              class="top-slider-image"
+              alt="ホームページ制作"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="/services/smartphone" class="top-slider-link">
+            <img
+              src="/img/slider/service2.webp"
+              class="top-slider-image"
+              alt="スマホアプリ開発"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="/services/web_development" class="top-slider-link">
+            <img
+              src="/img/slider/service3.webp"
+              class="top-slider-image"
+              alt="Webシステム開発"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="/services/nepal" class="top-slider-link">
+            <img
+              src="/img/slider/service4.webp"
+              class="top-slider-image"
+              alt="ネパールオフショア開発"
+            />
+          </a>
+        </li>
+      </ul>
+
+      <button type="button" class="slider-nav"></button>
+      <button type="button" class="slider-nav slider-nav-next"></button>
+
+      <div class="slider-indicators">
+        <button class="active"></button>
+        <button></button>
+        <button></button>
+      </div>
+    </div>
     <div class="top">
       <div class="top-slogan">
         <h2 class="top-slogan-text">コンピュータと和解せよ</h2>
@@ -221,7 +277,7 @@ title: TOP
       />
       <h2 class="top-inquiry-title-text">お問い合わせ</h2>
     </div>
-    <div class="top-inquiry-button-container">
+    <div class="inquiry-button-container">
       <p>Web・モバイルアプリ開発に関することならなんでもご相談ください。</p>
       {{ comp.inquiryButton() | safe }}
     </div>

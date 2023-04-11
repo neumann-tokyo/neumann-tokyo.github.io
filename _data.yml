@@ -38,6 +38,19 @@ jobs:
     description:
       - 不動産相続代行システムの開発支援
       - "使用技術: Clojure, ClojureScript, PostgreSQL, Docker, など"
+serviceJobs:
+  - title: "岩手特産品のアンテナショップの在庫・受発注管理システム"
+    image: "/img/kasseika.webp"
+    url: "https://kasseika.club"
+  - title: "目標管理手法の一つであるOKRの管理システムの開発支援"
+    image: "/img/work2.webp"
+    url: "https://resily.com"
+  - title: "大手建材販売企業の EC サイト (通販サイト)"
+    image: "/img/work1.webp"
+    url: "https://guildworks.jp"
+  - title: "不動産相続代行システムの開発支援"
+    image: "/img/age-tech-logo.webp"
+    url: "https://age-technologies.co.jp"
 projects:
   - image: /img/logo.webp
     name: インターンシップ制度

@@ -10,3 +10,8 @@
   font-weight: bold;
   white-space: nowrap;
 }
+
+.inquiry-button-container {
+  margin: 1rem 0;
+  text-align: center;
+}

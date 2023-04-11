@@ -60,10 +60,17 @@ description: ノイマントーキョー株式会社はITとテレワークを�
       content="ノイマントーキョー株式会社 - {{ title }}"
     />
     <meta property="og:url" content="https://www.neumann.tokyo" />
+    {% if ogimage %}
+    <meta
+      property="og:image"
+      content="https://www.neumann.tokyo{{ ogimage }}"
+    />
+    {% else %}
     <meta
       property="og:image"
       content="https://www.neumann.tokyo/img/mainvisual.webp"
     />
+    {% endif %}
     <meta property="og:type" content="website" />
     <meta name="description" content="{{ description }}" />
     <meta property="og:description" content="{{ description }}" />
@@ -71,23 +78,7 @@ description: ノイマントーキョー株式会社はITとテレワークを�
 
     <title>ノイマントーキョー株式会社 - {{ title }}</title>
 
-    <!-- Sendinblue Conversations {literal} -->
-    <script>
-      (function (d, w, c) {
-        w.SibConversationsID = "640ad8af67321d3251083791";
-        w[c] =
-          w[c] ||
-          function () {
-            (w[c].q = w[c].q || []).push(arguments);
-          };
-        var s = d.createElement("script");
-        s.async = true;
-        s.src =
-          "https://conversations-widget.sendinblue.com/sib-conversations.js";
-        if (d.head) d.head.appendChild(s);
-      })(document, window, "SibConversations");
-    </script>
-    <!-- /Sendinblue Conversations {/literal} -->
+    {{ permalink | safe }}
   </head>
   <body class="layout">
     {{ content | safe }}
