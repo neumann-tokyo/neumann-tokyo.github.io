@@ -168,6 +168,38 @@
   margin-top: 1rem;
 }
 
+.services-nepal {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.services-nepal-flag {
+  width: 15rem;
+}
+
+.services-nepal-flag-container {
+  width: 50%;
+  text-align: center;
+}
+
+.services-nepal-items {
+  width: 50%;
+  font-size: 1.5rem;
+  background-color: var(--services-accent-background-color);
+  border-radius: 2rem;
+  padding: 3rem;
+  list-style: none;
+}
+
+.services-nepal-item::before {
+  content: "😄";
+}
+
+.services-nepal-em {
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 800px) {
   .services-card {
     flex-direction: column-reverse;

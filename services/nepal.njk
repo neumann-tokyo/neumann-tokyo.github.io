@@ -15,6 +15,32 @@ ogimage: /img/slider/service4.png
     {{ comp.inquiryButton() | safe }}
   </div>
 
+  <h2 class="services-h2">
+    あなたのシステムをグローバルチームで作らせてください！
+  </h2>
+  <div class="services-nepal">
+    <div class="services-nepal-flag-container">
+      <img
+        src="/img/flag_of_nepal.png"
+        alt="ネパールの国旗"
+        class="services-nepal-flag"
+        loading="lazy"
+      />
+    </div>
+    <ul class="services-nepal-items">
+      <li class="services-nepal-item">
+        ノイマントーキョーではグローバルチームでシステムを開発する
+        <em class="services-nepal-em">オフショア開発</em>を行っています。
+      </li>
+      <li class="services-nepal-item">
+        お客様とのミーティングは日本人が行いますので、認識齟齬を最小限に抑えます。
+      </li>
+      <li class="services-nepal-item">
+        開発は日本人とネパール人で行うので高品質を担保しつつ、コストを抑えることができます。
+      </li>
+    </ul>
+  </div>
+
   {{
     comp.serviceProblem({
       messages: [
@@ -26,13 +52,13 @@ ogimage: /img/slider/service4.png
   }}
   {{
     comp.serviceSellingPoint({
-      messages: ["日本人が窓口になり要件をまとめたり進捗を共有します", "", ""]
+      messages: [
+        "日本人担当者が要件をまとめて進捗共有をします",
+        "混合チームだから低価格でも高品質",
+        "難しいことは全て弊社にお任せください"
+      ]
     }) | safe
   }}
-
-  <div>
-    <h2 class="services-h2">ノイマントーキョーが選ばれる理由</h2>
-  </div>
 
   {{ comp.serviceRequirement() | safe }}
   {{ comp.serviceFlow() | safe }}
