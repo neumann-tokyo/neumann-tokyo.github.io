@@ -11,9 +11,7 @@ ogimage: /img/slider/service4.webp
     alt="ネパールオフショア開発"
     class="services-top-image"
   />
-  <div class="inquiry-button-container">
-    {{ comp.inquiryButton() | safe }}
-  </div>
+  <div class="inquiry-button-container">{{ comp.inquiryButton() | safe }}</div>
 
   <h2 class="services-h2">
     あなたのシステムをグローバルチームで作らせてください！
@@ -41,27 +39,12 @@ ogimage: /img/slider/service4.webp
     </ul>
   </div>
 
-  {{
-    comp.serviceProblem({
-      messages: [
-        "システム開発を外注したいが予算が少ない",
-        "オフショア開発は言葉の壁や品質が心配",
-        "ITに詳しくないのでオフショア開発は不安"
-      ]
-    }) | safe
-  }}
-  {{
-    comp.serviceSellingPoint({
-      messages: [
-        "日本人担当者が要件をまとめて進捗共有をします",
-        "混合チームだから低価格でも高品質",
-        "難しいことは全て弊社にお任せください"
-      ]
-    }) | safe
-  }}
-
-  {{ comp.serviceRequirement() | safe }}
-  {{ comp.serviceFlow() | safe }}
-  {{ comp.serviceOnline() | safe }}
-  {{ comp.serviceInquiry() | safe }}
+  {{ comp.serviceProblem({ messages: [ "システム開発を外注したいが予算が少ない",
+  "オフショア開発は言葉の壁や品質が心配",
+  "ITに詳しくないのでオフショア開発は不安" ] }) | safe }} {{
+  comp.serviceSellingPoint({ messages: [
+  "日本人担当者が要件をまとめて進捗共有をします",
+  "混合チームだから低価格でも高品質", "難しいことは全て弊社にお任せください" ]
+  }) | safe }} {{ comp.serviceRequirement() | safe }} {{ comp.serviceFlow() |
+  safe }} {{ comp.serviceOnline() | safe }} {{ comp.serviceInquiry() | safe }}
 </div>

@@ -11,32 +11,15 @@ ogimage: /img/slider/service3.webp
     alt="Webシステム開発"
     class="services-top-image"
   />
-  <div class="inquiry-button-container">
-    {{ comp.inquiryButton() | safe }}
-  </div>
+  <div class="inquiry-button-container">{{ comp.inquiryButton() | safe }}</div>
 
-  {{
-    comp.serviceProblem({
-      messages: [
-        "業務システムが使いづらい",
-        "FAXや印鑑をやめてDXしたい！",
-        "外部委託が初めてでどうしたらいいかわからない"
-      ]
-    }) | safe
-  }}
-  {{
-    comp.serviceSellingPoint({
-      messages: [
-        "要件定義からデザイン、開発、運用まで一貫して対応可能だから低価格で高品質！",
-        "コミュニケーション重視の開発体制で、お客様の要望をしっかりと理解します！",
-        "圧倒的技術力で、お客様のビジネスを加速させます！"
-      ]
-    }) | safe
-  }}
-
-  {{ comp.serviceJobs() | safe }}
-  {{ comp.serviceRequirement() | safe }}
-  {{ comp.serviceFlow() | safe }}
-  {{ comp.serviceOnline() | safe }}
-  {{ comp.serviceInquiry() | safe }}
+  {{ comp.serviceProblem({ messages: [ "業務システムが使いづらい",
+  "FAXや印鑑をやめてDXしたい！", "外部委託が初めてでどうしたらいいかわからない"
+  ] }) | safe }} {{ comp.serviceSellingPoint({ messages: [
+  "要件定義からデザイン、開発、運用まで一貫して対応可能だから低価格で高品質！",
+  "コミュニケーション重視の開発体制で、お客様の要望をしっかりと理解します！",
+  "圧倒的技術力で、お客様のビジネスを加速させます！" ] }) | safe }} {{
+  comp.serviceJobs() | safe }} {{ comp.serviceRequirement() | safe }} {{
+  comp.serviceFlow() | safe }} {{ comp.serviceOnline() | safe }} {{
+  comp.serviceInquiry() | safe }}
 </div>

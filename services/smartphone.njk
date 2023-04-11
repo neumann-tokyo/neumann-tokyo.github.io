@@ -11,32 +11,16 @@ ogimage: /img/slider/service2.webp
     alt="スマホアプリ開発"
     class="services-top-image"
   />
-  <div class="inquiry-button-container">
-    {{ comp.inquiryButton() | safe }}
-  </div>
+  <div class="inquiry-button-container">{{ comp.inquiryButton() | safe }}</div>
 
-  {{
-    comp.serviceProblem({
-      messages: [
-        "新規顧客獲得のためにスマホアプリがほしい",
-        "新しいビジネスのアイディアをスマホアプリで実現したい",
-        "スマホアプリで業務を効率化したい"
-      ]
-    }) | safe
-  }}
-  {{
-    comp.serviceSellingPoint({
-      messages: [
-        "要件定義からデザイン、開発、運用まで一貫して対応可能だから低価格で高品質！",
-        "iPhone/Android 両方対応でも同じ価格！",
-        "管理画面などを含む Web システムとの統合もおまかせください"
-      ]
-    }) | safe
-  }}
-
-  {{ comp.serviceJobs() | safe }}
-  {{ comp.serviceRequirement() | safe }}
-  {{ comp.serviceFlow() | safe }}
-  {{ comp.serviceOnline() | safe }}
-  {{ comp.serviceInquiry() | safe }}
+  {{ comp.serviceProblem({ messages: [
+  "新規顧客獲得のためにスマホアプリがほしい",
+  "新しいビジネスのアイディアをスマホアプリで実現したい",
+  "スマホアプリで業務を効率化したい" ] }) | safe }} {{
+  comp.serviceSellingPoint({ messages: [
+  "要件定義からデザイン、開発、運用まで一貫して対応可能だから低価格で高品質！",
+  "iPhone/Android 両方対応でも同じ価格！", "管理画面などを含む Web
+  システムとの統合もおまかせください" ] }) | safe }} {{ comp.serviceJobs() |
+  safe }} {{ comp.serviceRequirement() | safe }} {{ comp.serviceFlow() | safe }}
+  {{ comp.serviceOnline() | safe }} {{ comp.serviceInquiry() | safe }}
 </div>

@@ -7,13 +7,9 @@
       alt="ホームページがほしいけど詳細が全然決まってなくて、ふわっとしたアイディアしかない"
     />
     <div>
-      {{
-        comp.speechBubble({
-          direction: "left",
-          text: "作って欲しい物の詳細が全然決まってなくて、ふわっとしたアイディアしかない",
-          class: "services-speech-bubble-text"
-        }) | safe
-      }}
+      {{ comp.speechBubble({ direction: "left", text:
+      "作って欲しい物の詳細が全然決まってなくて、ふわっとしたアイディアしかない",
+      class: "services-speech-bubble-text" }) | safe }}
     </div>
   </div>
   <div class="services-speech-bubble-right">
