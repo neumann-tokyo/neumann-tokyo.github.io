@@ -13,13 +13,24 @@ ogimage: /img/slider/service1.webp
   />
   <div class="inquiry-button-container">{{ comp.inquiryButton() | safe }}</div>
 
-  {{ comp.serviceProblem({ messages: [ "ホームページが古い気がする",
-  "ホームページを作ったのにアクセスが増えない",
-  "ホームページが欲しいけど予算がない" ] }) | safe }} {{
-  comp.serviceSellingPoint({ messages: [
-  "社員のデザイナ、エンジニアが対応するのでお値打ち価格で高品質！",
-  "SEO・MEO対策抜群！診断ツールで高得点を出します！",
-  "全国どこからでもオンラインリモート対応可能！" ] }) | safe }} {{
-  comp.serviceRequirement() | safe }} {{ comp.serviceFlow() | safe }} {{
-  comp.serviceOnline() | safe }} {{ comp.serviceInquiry() | safe }}
+  {{
+    comp.serviceProblem({
+      messages: [
+        "ホームページが古い気がする",
+        "ホームページを作ったのにアクセスが増えない",
+        "ホームページが欲しいけど予算がない"
+      ]
+    }) | safe
+  }}
+  {{
+    comp.serviceSellingPoint({
+      messages: [
+        "社員のデザイナ、エンジニアが対応するのでお値打ち価格で高品質！",
+        "SEO・MEO対策抜群！診断ツールで高得点を出します！",
+        "全国どこからでもオンラインリモート対応可能！"
+      ]
+    }) | safe
+  }}
+  {{ comp.serviceRequirement() | safe }} {{ comp.serviceFlow() | safe }}
+  {{ comp.serviceOnline() | safe }} {{ comp.serviceInquiry() | safe }}
 </div>

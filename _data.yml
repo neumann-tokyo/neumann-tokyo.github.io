@@ -38,6 +38,19 @@ jobs:
     description:
       - 不動産相続代行システムの開発支援
       - "使用技術: Clojure, ClojureScript, PostgreSQL, Docker, など"
+services:
+  - title: ホームページ制作
+    url: /services/homepage
+    image: /img/slider/service1.webp
+  - title: スマホアプリ開発
+    url: /services/smartphone
+    image: /img/slider/service2.webp
+  - title: Webシステム開発
+    url: /services/web_development
+    image: /img/slider/service3.webp
+  - title: ネパールオフショア開発
+    url: /services/nepal
+    image: /img/slider/service4.webp
 serviceJobs:
   - title: "岩手特産品のアンテナショップの在庫・受発注管理システム"
     image: "/img/kasseika.webp"

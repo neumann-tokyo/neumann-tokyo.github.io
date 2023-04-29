@@ -1,5 +1,14 @@
 .footer-content {
-  text-align: center;
-  font-size: 1rem;
-  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.footer-company-name {
+  text-align: right;
+}
+
+.footer-sitemap-link {
+  color: white;
 }
