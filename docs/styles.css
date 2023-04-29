@@ -641,9 +641,18 @@ body {
 }
 
 .footer-content {
-  text-align: center;
-  font-size: 1rem;
-  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.footer-company-name {
+  text-align: right;
+}
+
+.footer-sitemap-link {
+  color: white;
 }
 
 .speech-bubble-container[data-direction="left"] {
@@ -1751,6 +1760,11 @@ body {
   width: 100%;
 }
 
+.services-list {
+  -moz-column-count: 2;
+       column-count: 2;
+}
+
 .services-h2::before {
   content: "▶";
   color: var(--services-accent-color);
@@ -1956,27 +1970,39 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
+  .services-list {
+    -moz-column-count: 1;
+         column-count: 1;
+  }
+
   .services-card {
     flex-direction: column-reverse;
   }
+
   .services-card-reverse {
     flex-direction: column-reverse;
   }
+
   .services-card-image {
     width: 15rem;
   }
+
   .services-speech-bubble-left {
     flex-direction: column-reverse;
   }
+
   .services-speech-bubble-right {
     flex-direction: column-reverse;
   }
+
   .services-flow-container {
     padding: 1rem;
   }
+
   .services-flow-card-content {
     flex-direction: column;
   }
+
   .services-flow-h3-border {
     padding: 0;
   }
@@ -1986,10 +2012,12 @@ body {
          column-count: 1;
     padding: 1rem;
   }
+
   .services-jobs-card {
     width: 100%;
     max-width: 280px;
   }
+
   .services-jobs-card-image {
     width: 100%;
   }
@@ -1997,12 +2025,15 @@ body {
   .services-nepal {
     flex-direction: column;
   }
+
   .services-nepal-flag {
     width: 10rem;
   }
+
   .services-nepal-flag-container {
     width: 100%;
   }
+
   .services-nepal-items {
     width: 80%;
     padding: 2rem;
