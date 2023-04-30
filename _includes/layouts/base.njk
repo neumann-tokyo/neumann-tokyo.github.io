@@ -59,7 +59,7 @@ description: ノイマントーキョー株式会社はITとテレワークを�
       property="og:title"
       content="ノイマントーキョー株式会社 - {{ title }}"
     />
-    <meta property="og:url" content="https://www.neumann.tokyo" />
+    <meta property="og:url" content="https://www.neumann.tokyo{{ url }}" />
     {% if ogimage %}
     <meta
       property="og:image"
@@ -78,7 +78,9 @@ description: ノイマントーキョー株式会社はITとテレワークを�
 
     <title>ノイマントーキョー株式会社 - {{ title }}</title>
 
-    {{ permalink | safe }}
+    {{
+      permalink | safe
+    }}
   </head>
   <body class="layout">
     {{ content | safe }}

@@ -1,6 +1,7 @@
 ---
 title: Scrum 社内勉強会
 date: 2023-04-29
+description: 弊社では若手社員を中心としてアジャイルソフトウェア開発手法の一つである Scrum の社内勉強会を行っています。
 ogimage: /img/articles/scrum-learning-in-company.png
 ---
 
