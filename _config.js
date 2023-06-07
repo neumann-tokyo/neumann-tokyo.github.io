@@ -24,5 +24,6 @@ site.use(sitemap());
 site.copy("img");
 site.copy("site.webmanifest");
 site.copy("CNAME");
+site.copy("favicon.ico");
 
 export default site;
