@@ -1,12 +1,15 @@
 .top-slider {
   margin-top: 1rem;
 }
+
 .top-slider-container {
   overflow-y: hidden;
 }
+
 .top-slider-link {
   text-decoration: none;
 }
+
 .top-slider-image {
   max-width: 100%;
 }
@@ -14,6 +17,15 @@
 .top-notification {
   text-align: center;
   font-weight: bold;
+}
+
+.top-numazu-rental {
+  text-align: center;
+}
+
+.numazu-rental-img {
+  width: 100%;
+  object-fit: contain;
 }
 
 .top-slogan {
@@ -136,6 +148,7 @@
   display: flex;
   gap: 2rem;
 }
+
 .language-card {
   display: flex;
   flex-direction: column;
@@ -285,29 +298,36 @@
   .top-slogan-text {
     font-size: 3rem;
   }
+
   .top-slogan {
     flex-direction: column;
   }
+
   .top-features-cards {
     flex-direction: column;
     gap: 1rem;
   }
+
   .top-features-cards-reverse {
     flex-direction: column;
     gap: 1rem;
   }
+
   .languages-container {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0 1rem;
   }
+
   .language-image-container {
     width: 8rem;
     height: 8rem;
   }
+
   .languages-title-text {
     font-size: 2rem;
   }
+
   .languages-subtitle {
     font-size: 1.5rem;
   }
@@ -315,18 +335,22 @@
   .top-layout-jobs {
     flex-direction: column;
   }
+
   .top-layout-jobs-left {
     padding: 2rem 0;
     flex: 1;
   }
+
   .top-layout-jobs-right {
     padding: 1rem;
     flex: 1;
   }
+
   .top-layout-jobs-right-inside {
     flex-direction: column;
     gap: 1rem;
   }
+
   .top-jobs-description {
     margin: 1rem 0;
   }
