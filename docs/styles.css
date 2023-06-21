@@ -513,6 +513,12 @@ body {
   text-align: right;
 }
 
+.standard-h2 {
+  color: var(--accent-color);
+  text-align: center;
+  margin: 4rem 0;
+}
+
 .only-mobile {
   display: none;
 }
@@ -738,6 +744,14 @@ body {
   }
 }
 
+.top-main {
+  background-color: white;
+}
+
+.top {
+  padding-bottom: 5rem;
+}
+
 .top-slider {
   margin-top: 1rem;
 }
@@ -761,6 +775,7 @@ body {
 
 .top-numazu-rental {
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .numazu-rental-img {
@@ -787,9 +802,11 @@ body {
 }
 
 .top-features-title {
+  background-color: var(--header-bg-color);
   color: var(--accent-color);
   text-align: center;
-  margin: 4rem 0;
+  padding: 4rem 0;
+  margin: 0;
 }
 
 .top-features-container {
