@@ -1,3 +1,9 @@
 .text-right {
   text-align: right;
 }
+
+.standard-h2 {
+  color: var(--accent-color);
+  text-align: center;
+  margin: 4rem 0;
+}
