@@ -1,43 +1,24 @@
 ---
 layout: layouts/top.njk
 title: TOP
-permalink: |-
-  <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
-  <script src="https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js" crossorigin="anonymous" defer></script>
 ---
 
 <main class="top-main">
   <div class="layout-main">
     <div class="layout-main-center">
-      <div
-        class="swiffy-slider slider-item-reveal slider-nav-autoplay top-slider"
-        data-slider-nav-autoplay-interval="3000"
-      >
-        <ul class="slider-container top-slider-container">
-          {% for service in services %}
-          <li>
-            <a href="{{ service.url }}" class="top-slider-link">
-              <img
-                src="{{ service.image }}"
-                class="top-slider-image"
-                alt="{{ service.title }}"
-              />
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
-
-        <button type="button" class="slider-nav"></button>
-        <button type="button" class="slider-nav slider-nav-next"></button>
-
-        <div class="slider-indicators">
-          <button class="active"></button>
-          <button></button>
-          <button></button>
-          <button></button>
-        </div>
+      <div class="top-numazu-rental">
+        <h2>開発サブスク始動！</h2>
+        <a href="/services/web_development">
+          <img
+            src="/img/development_subscription.webp"
+            alt="開発サブスク始動！"
+            loading="lazy"
+            class="numazu-rental-img"
+          />
+          <div>詳細はこちら</div>
+        </a>
       </div>
+
       <div class="top-numazu-rental">
         <h2>「沼津レンタル会議室」始めました</h2>
         <a href="https://numazu-meeting.neumann.tokyo" target="_blank">

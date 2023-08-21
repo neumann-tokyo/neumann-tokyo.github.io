@@ -24,6 +24,17 @@
   border-bottom: double 3px var(--services-accent-color);
 }
 
+.services-emphasize {
+  text-decoration: underline;
+  text-decoration-color: var(--services-accent-color2);
+  text-decoration-style: solid;
+  text-decoration-thickness: 8px;
+  text-underline-offset: -3px;
+  text-decoration-skip-ink: none;
+  font-weight: bold;
+  font-style: normal;
+}
+
 .services-card {
   display: flex;
   gap: 1rem;
@@ -48,6 +59,10 @@
   flex-direction: column;
   gap: 1rem;
   max-width: 100%;
+}
+
+.services-card-text-description {
+  line-height: 1.5;
 }
 
 .services-slogan-list {
