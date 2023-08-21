@@ -375,6 +375,7 @@ template {
 
   --services-accent-color: #fd8d8d;
   --services-accent-background-color: #ffecec;
+  --services-accent-color2: #ffb703;
 
   /* --accent-bg-color: #be2543;
   --accent-bg-color-dark: #941c34;
@@ -1812,6 +1813,18 @@ body {
   border-bottom: double 3px var(--services-accent-color);
 }
 
+.services-emphasize {
+  text-decoration: underline;
+  text-decoration-color: var(--services-accent-color2);
+  text-decoration-style: solid;
+  text-decoration-thickness: 8px;
+  text-underline-offset: -3px;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  font-weight: bold;
+  font-style: normal;
+}
+
 .services-card {
   display: flex;
   gap: 1rem;
@@ -1836,6 +1849,10 @@ body {
   flex-direction: column;
   gap: 1rem;
   max-width: 100%;
+}
+
+.services-card-text-description {
+  line-height: 1.5;
 }
 
 .services-slogan-list {
