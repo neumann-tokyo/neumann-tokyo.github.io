@@ -13,15 +13,10 @@ ogimage: /img/development_subscription.webp
   />
   <div class="inquiry-button-container">{{ comp.inquiryButton() | safe }}</div>
 
-  {{
-    comp.serviceProblem({
-      messages: [
-        "システム開発の外部委託が初めてで、どうしたらいいかわからない",
-        "要件定義から色々な提案をしてほしい",
-        "開発費がいくら掛かるかわからない"
-      ]
-    }) | safe
-  }}
+  {{ comp.serviceProblem({ messages: [
+  "システム開発の外部委託が初めてで、どうしたらいいかわからない",
+  "要件定義から色々な提案をしてほしい", "開発費がいくら掛かるかわからない" ] })
+  | safe }}
   <h2 class="services-h2">
     ノイマントーキョーの開発サブスクにおまかせください！
   </h2>
@@ -59,7 +54,7 @@ ogimage: /img/development_subscription.webp
     </div>
   </div>
 
-  {{ comp.serviceJobs() | safe }} {{ comp.serviceRequirement() | safe }}
-  {{ comp.serviceFlow() | safe }} {{ comp.serviceOnline() | safe }}
-  {{ comp.serviceInquiry() | safe }}
+  {{ comp.serviceJobs() | safe }} {{ comp.serviceRequirement() | safe }} {{
+  comp.serviceFlow() | safe }} {{ comp.serviceOnline() | safe }} {{
+  comp.serviceInquiry() | safe }}
 </div>
