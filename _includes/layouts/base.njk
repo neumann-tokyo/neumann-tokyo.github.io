@@ -3,89 +3,55 @@ description: ノイマントーキョー株式会社はITとテレワークを�
 ---
 
 <html lang="ja">
-  <head>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-0FZXKHCWHW"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
 
-      gtag("config", "G-0FZXKHCWHW");
-    </script>
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0FZXKHCWHW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
-    />
-    <link rel="stylesheet" href="/styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
-    />
+    gtag("config", "G-0FZXKHCWHW");
+  </script>
 
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/img/favicon/apple-touch-icon.webp"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/img/favicon/favicon-32x32.webp"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/img/favicon/favicon-16x16.webp"
-    />
-    <link rel="manifest" href="/site.webmanifest" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
-    <meta
-      name="keywords"
-      content="静岡県三島市,Clojure,プログラミング,受託開発"
-    />
-    <meta name="author" content="ノイマントーキョー株式会社馬場一樹" />
-    <meta
-      property="og:title"
-      content="ノイマントーキョー株式会社 - {{ title }}"
-    />
-    <meta property="og:url" content="https://www.neumann.tokyo{{ url }}" />
-    {% if ogimage %}
-    <meta
-      property="og:image"
-      content="https://www.neumann.tokyo{{ ogimage }}"
-    />
-    <meta
-      property="twitter:image:src"
-      content="https://www.neumann.tokyo{{ ogimage }}"
-    />
-    {% else %}
-    <meta
-      property="og:image"
-      content="https://www.neumann.tokyo/img/mainvisual.webp"
-    />
-    {% endif %}
-    <meta property="og:type" content="website" />
-    <meta name="description" content="{{ description }}" />
-    <meta property="og:description" content="{{ description }}" />
-    <meta property="og:locale" content="ja_JP" />
-    <meta name="twitter:card" content="summary_large_image" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.webp" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.webp" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.webp" />
+  <link rel="manifest" href="/site.webmanifest" />
 
-    <title>ノイマントーキョー株式会社 - {{ title }}</title>
+  <meta name="keywords" content="プログラミング,受託開発" />
+  <meta name="author" content="ノイマントーキョー株式会社馬場一樹" />
+  <meta property="og:title" content="ノイマントーキョー株式会社 - {{ title }}" />
+  <meta property="og:url" content="https://www.neumann.tokyo{{ url }}" />
+  {% if ogimage %}
+  <meta property="og:image" content="https://www.neumann.tokyo{{ ogimage }}" />
+  <meta property="twitter:image:src" content="https://www.neumann.tokyo{{ ogimage }}" />
+  {% else %}
+  <meta property="og:image" content="https://www.neumann.tokyo/img/mainvisual.webp" />
+  {% endif %}
+  <meta property="og:type" content="website" />
+  <meta name="description" content="{{ description }}" />
+  <meta property="og:description" content="{{ description }}" />
+  <meta property="og:locale" content="ja_JP" />
+  <meta name="twitter:card" content="summary_large_image" />
 
-    {{ permalink | safe }}
-  </head>
-  <body class="layout">
-    {{ content | safe }}
-  </body>
+  <title>ノイマントーキョー株式会社 - {{ title }}</title>
+
+  {{ permalink | safe }}
+</head>
+
+<body class="layout">
+  {{ content | safe }}
+</body>
+
 </html>
