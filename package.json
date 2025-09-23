@@ -1,0 +1,18 @@
+{
+  "name": "neumann-tokyo.github.io",
+  "version": "1.0.0",
+  "description": "ノイマントーキョー株式会社",
+  "scripts": {
+    "dev": "http-server docs -c 5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neumann-tokyo/neumann-tokyo.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://www.neumann.tokyo",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
